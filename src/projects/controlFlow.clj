@@ -30,3 +30,7 @@
     (println "do and if in one line")
     (println "still true")
     "true/return value"))
+
+;;clojure operations follow this syntax: opening parenthesis, operator, operands, closing parenthesis. A function call is just an operation,
+;;the first item in an operation has to be a function though.
+;;this means you can use functions as the operator. e.g. ( (or + -) 1 2 3 4) && ( (or false -) 1 2 3 4) && ((first [+ 0]) 1 2 3)
