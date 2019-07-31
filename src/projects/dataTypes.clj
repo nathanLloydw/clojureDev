@@ -56,3 +56,5 @@
    {:name "left-lower-leg" :size 3}
    {:name "left-achilles" :size 1}
    {:name "left-foot" :size 2}])
+
+;;(clojure.string/replace (str (:name(nth asym-hobbit-body-parts 1))) #"^left-" "right-" )
