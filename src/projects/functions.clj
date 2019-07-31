@@ -33,10 +33,25 @@
   (str name " attacks the giant goblin with his " weapon))
   ([name]
    (attack name "stick")))
-
 ;;if you map the output and pass a list/vector the returning map will contain the function called x times over.
 ;;e.g. (map attack '("nathan" "sarah" "billy" "sam")) || (map attack ["nathan" "sarah" "billy" "sam"])
 ;; || (map attack ["nathan" "sarah" "billy" "sam" ] ["spoon" "fork" "spork" "silver sword"])
+
+;;this mapping feature can be used in functions e.g: (old-folk "billy" "sam" "terry")
+;;do not understand why i cant put this into one function...
+(defn young-folk [young-folk] (str "Get of my lawn " young-folk))
+(defn old-folk [& youngFolks] (map young-folk youngFolks))
+
+;;conditional function example - errorMessage
+(defn errorMessage
+  [severity]
+  (str "OH GOD! IT'S A DISASTER! WE'RE "
+       (cond
+         (= severity :fine) "GOING HOME EARLY!"
+         (= severity :mild) "MILDLY INCONVENIENCED!"
+         (= severity :serious) "DOOOOOOOMED!"
+          :else "CONFUUSSSEEEDDDD!")))
+;;i have used the cond function for multiple conditions rather than the if for one condition.
 
 ;;this is deconstructing in use, as you can see you can split where the value would be into sub values by putting it in brackets.
 ;;e.g. (deconstructingTest ["a" "b" "c"] ["d" "e" "f"] ["g" "h" "i"])

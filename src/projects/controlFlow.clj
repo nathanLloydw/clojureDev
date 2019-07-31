@@ -34,3 +34,13 @@
 ;;clojure operations follow this syntax: opening parenthesis, operator, operands, closing parenthesis. A function call is just an operation,
 ;;the first item in an operation has to be a function though.
 ;;this means you can use functions as the operator. e.g. ( (or + -) 1 2 3 4) && ( (or false -) 1 2 3 4) && ((first [+ 0]) 1 2 3)
+
+(defn errorMessage
+  [severity]
+  (str "OH GOD! IT'S A DISASTER! WE'RE "
+       (cond
+         (= severity :fine) "GOING HOME EARLY!"
+         (= severity :mild) "MILDLY INCONVENIENCED!"
+         (= severity :serious) "DOOOOOOOMED!"
+         :else "CONFUUSSSEEEDDDD!")))
+;;here i have used the cond function to deal with multiple conditions.
