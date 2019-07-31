@@ -116,7 +116,5 @@
 ;;thats because its not a function, its a variable. once called the function is returned.
 ;;you do not send the function a value the function is returned to it.
 
-;;VeRy CoNfUsInG... heres another example of a function returning another function: lol jokes
-
 
 
