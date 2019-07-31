@@ -3,6 +3,8 @@
 (use '[imports.matcher :refer :all])
 (use '[imports.trace :refer :all])
 
+;;introduction to clojure ( learning curve )
+
 (defn add
   ([a b] (+ a b))
   ([a b c] (+ a b c)))
@@ -11,6 +13,12 @@
   (if (zero? n)
     1
     (* n (fact (dec n)))))
+
+(defn inc-1st [lis]
+  ( cons( +(first lis) 1) (rest lis)))
+
+(defn vec-1st [lis]
+  ( cons ( vec( list( first lis))) ( rest lis)))
 
 (defn length [lis]
   (if (empty? lis)
@@ -37,12 +45,31 @@
     :else
     (cons (first lis) (spam-num (rest lis)))))
 
+(defn recursive-printer
+  ([]
+   (recursive-printer 0))
+  ([iteration]
+   (println iteration)
+   (if (> iteration 3)
+     (println "Goodbye!")
+     (recursive-printer (inc iteration)))))
+
+(def sum #(reduce + %))
+(def avg #(/ (sum %) (count %)))
+
+(defn stats
+  [numbers]
+  (map #(% numbers) [sum count avg]))
+
+;;(stats [3 4 10])
+
 ;;lmg woop
-(defn lmg [x] (list (+ x 3) (* x 2) (- x 7)))
+(defn lmg [x] (list (+ x 2) (* x 3) (- x 7)))
 
 (defn canDo? [start goal lmg]
   (cond (= start goal) (do (println start) true)
         (> start goal) false
+        (< start 0) false
         :else
         (do (println start)
             (or (canDo? (first (lmg start)) goal lmg)
@@ -87,3 +114,4 @@
          :else
          (or (cnt-dwn-tail (- goal (first free)) (rest free) (cons (first free) used))
              (cnt-dwn-tail goal (rest free) used)))))
+

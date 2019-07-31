@@ -4,72 +4,93 @@
 (use '[imports.matcher :refer :all])
 (use '[imports.trace :refer :all])
 
-;;introduction to clojure ( learning curve )
 
-(defn inc-1st [lis]
-  ( cons( +(first lis) 1) (rest lis)))
+;;functions created to help my solutions
+(defn theMath [lis]
+  ((juxt filter remove) number? (flatten lis)))
 
-(defn vec-1st [lis]
-  ( cons ( vec( list( first lis))) ( rest lis)))
-
-(defn grammer
-  [name & things]
-  (str "Hi " name ", here is a list: "
-       (clojure.string/join ", " things)))
-
-(def anom-multiplier (fn [x] (* x 3)))
-
-(defn recursive-printer
-  ([]
-   (recursive-printer 0))
-  ([iteration]
-   (println iteration)
-   (if (> iteration 3)
-     (println "Goodbye!")
-     (recursive-printer (inc iteration)))))
+(defn drop-nth [n coll]
+  (keep-indexed #(if (not= %1 n) %2) coll))
 
 
-(def sum #(reduce + %))
-(def avg #(/ (sum %) (count %)))
+;;(splitM1[1 2 5 3 "A" "H" 5 "C"]) | solution one
+(defn splitM1 [lis]
+  (time (sort(map str (flatten lis)))))
 
-(defn stats
-  [numbers]
-  (map #(% numbers) [sum count avg]))
+;;(splitM2[1 2 5 3 "A" "H" 5 "C"]) | solution two
+(defn splitM2 [lis]
+  (time(sort-by str (flatten lis))))
 
-;;(stats [3 4 10])
+;;(splitM3[1 2 5 3 "A" "H" 5 "C"]) | solution three
+(defn splitM3 [lis]
+  (time ((juxt filter remove) number? (flatten lis))))
 
-(def identities
-  [{:alias "Batman" :real "Bruce Wayne"}
-   {:alias "Spider-Man" :real "Peter Parker"}
-   {:alias "Santa" :real "Your mom"}
-   {:alias "Easter Bunny" :real "Your dad"}])
+;;(splitM4[1 2 5 3 "A" "H" 5 "C"]) | solution four
+(defn splitM4 [lis]
+  (group-by  number? (flatten lis)))
 
-;;(map :real identities)
+;;(splitM5 '(1 2 3 4 5 6 "a" 4 "b")) | solution five
 
-(def food-journal
-  [{:month 1 :day 1 :junk 5.3 :veg 2.3}
-   {:month 1 :day 2 :junk 5.1 :veg 2.0}
-   {:month 2 :day 1 :junk 4.9 :veg 2.1}
-   {:month 2 :day 2 :junk 5.0 :veg 2.5}
-   {:month 3 :day 1 :junk 4.2 :veg 3.3}
-   {:month 3 :day 2 :junk 4.0 :veg 3.8}
-   {:month 4 :day 1 :junk 3.7 :veg 3.9}
-   {:month 4 :day 2 :junk 3.7 :veg 3.6}])
+(defn splitM5 [lis]
+  (time(println :numbers (first(theMath lis)) :letters/words (first (rest (theMath lis)) ))))
 
-;;(take-while #(< (:month %) 3) food-journal)
+;;(splitM6 '(1 2 3 4 5 6 "a" 4 "b")) | solution six
 
-;;(drop-while #(< (:month %) 3) food-journal)
+(defn splitM6
+  ([lis]
+   (time(splitM6 (flatten lis) 0)))
 
-;;(take-while #(< (:month %) 4) (drop-while #(< (:month %) 2) food-journal))
+  ([lis i]
+   (if (< i (count lis))
+     (do
+       (println (nth lis i))
+       (if (number? (nth lis i))
+         (splitM6  (cons (nth lis i) (drop-nth i lis)) (+ i 1))
+         (splitM6 lis (+ i 1))))
+     lis)))
 
-;;(filter #(< (:junk %) 5) food-journal)
+(defn splitM7
+  ([lis]
+   (splitM7 (flatten lis) [] []))
+  ([lis numbers symbols]
+   (cond (empty? lis)
+         {:numbers numbers, :symbols symbols}
 
-;;(filter #(< (:month %) 3) food-journal)
+         (number? (first lis))
+         (splitM7 (rest lis) (conj numbers (first lis)) symbols)
 
-;;(some #(> (:veg %) 3) food-journal)
+         :else
+         (splitM7 (rest lis) numbers (conj symbols (first lis)) )
+         ))
+  )
 
-
-;;unrealated but :
-;;(concat (take 8 (repeat "na")) ["Batman!"])
-
-;;(take 3 (repeatedly (fn [] (rand-int 10))))
+;;useful functions:
+;;concat
+;;interleave
+;;interpose - ands a keyword between each variable in a vector
+;;apply str - messing with strings turn them into characters, this turns it back
+;;seq - turns string into characters
+;;shuffle
+;;split-at - splits when to serperate vectors when conditions are met
+;;split-with - uses a function to decide when
+;;filter - can filter a sequince with a function such as pos? neg? string?
+;;remove string?
+;;partition,partition-all, partition-by
+;;frequencies - removes duplucutes with number
+;;group-by :keyword
+;;reduce - puts elements into one list or map or something but removes duplicates
+;;reductions - does same as above but shows how it changes
+;;into - reducing elements into a map, list, etc...
+;; when - does the folling if true
+;; when-not does the following if false
+;; their is also an if-not which flips the follwing conditional answers
+;; when-let is when and let mixed
+;; while repeats till an expression is false
+;; cond can do many conditional answers is one go
+;; condp
+;; case
+;; (rand)
+;; (repeat 3 "hi")
+;; (take 10 (iterate inc 0) )
+;; (range 5 100 5)
+;; (take 10 (cycle [ 1 2 3]))
