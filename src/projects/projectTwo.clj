@@ -45,3 +45,5 @@
   [hobit]
   (into (into [] (remove nil? (map matching-part01 hobit))) hobit))
 ;; (symmetrize-hobit asym-hobbit-body-parts)
+
+;; (into [] (set [(matching-part01 (nth asym-hobbit-body-parts 1)) (nth asym-hobbit-body-parts 1)]))
