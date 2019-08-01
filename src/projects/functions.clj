@@ -151,12 +151,4 @@
 ;;thats because its not a function, its a variable. once called the function is returned.
 ;;you do not send the function a value the function is returned to it.
 
-;;here is a good example of anonymous functions in use:
-
-(def sum #(reduce + %))
-(def avg #(/ (sum %) (count %)))
-
-(defn stats
-  [numbers]
-  (map #(% numbers) [sum count avg]))
 
