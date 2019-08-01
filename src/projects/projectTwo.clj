@@ -35,6 +35,7 @@
 ;;this version only returns the new parts and with this calll it doesnt return any nil values:
 ;;using the function i mentioned above i wrote a version which i understand,
 ;;the only difference is the order the maps are listed
+
 (defn matching-part01
   [{part :name size :size}]
   (if (clojure.string/includes? part "left")
@@ -43,3 +44,4 @@
 (defn symmetrize-hobit
   [hobit]
   (into (into [] (remove nil? (map matching-part01 hobit))) hobit))
+;; (symmetrize-hobit asym-hobbit-body-parts)
