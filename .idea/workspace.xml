@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/projects/functions.clj" line="108" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/src/projects/functions.clj" line="143" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf41d459-884f-45f9-be37-13d0a307c19d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/projects/projectThree.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/projectTwo.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/projectTwo.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/recursion.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notepad.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/notepad.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/controlFlow.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/controlFlow.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/dataTypes.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/dataTypes.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/functions.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/functions.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,12 +30,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="clj" value="5094" />
+          <entry key="clj" value="8709" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Clojure" value="5094" />
+          <entry key="Clojure" value="8709" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,38 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/notepad.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/projects/projectOne.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/projects/projectTwo.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/projects/projectThree.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -91,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projects/dataTypes.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+            <state relative-caret-position="714">
+              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -100,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projects/controlFlow.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
+            <state relative-caret-position="574">
+              <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -109,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projects/functions.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+            <state relative-caret-position="761">
+              <caret line="160" column="37" lean-forward="true" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -136,15 +109,21 @@
         <option value="$PROJECT_DIR$/src/main.clj" />
         <option value="$PROJECT_DIR$/src/projects/prj1.clj" />
         <option value="$PROJECT_DIR$/src/projects/recursion.clj" />
-        <option value="$PROJECT_DIR$/src/projects/controlFlow.clj" />
         <option value="$PROJECT_DIR$/src/projects/projectOne.clj" />
+        <option value="$PROJECT_DIR$/src/projects/projectThree.clj" />
+        <option value="$PROJECT_DIR$/src/projects/projectTwo.clj" />
+        <option value="$PROJECT_DIR$/src/projects/controlFlow.clj" />
         <option value="$PROJECT_DIR$/src/notepad.clj" />
         <option value="$PROJECT_DIR$/src/projects/functions.clj" />
         <option value="$PROJECT_DIR$/src/projects/dataTypes.clj" />
-        <option value="$PROJECT_DIR$/src/projects/projectThree.clj" />
-        <option value="$PROJECT_DIR$/src/projects/projectTwo.clj" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="691" />
@@ -186,12 +165,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564654662624" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564676126304" />
     <property name="cursive.last.file.extension.C\:/Users/Nathan/Desktop/Projects/clojureDev/src" value="clj" />
     <property name="cursive.last.file.extension.C\:/Users/n.williams/Documents/GitHub/clojureDev/src" value="clj" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ReplState" timestamp="1564654662620">{:repl-history {:ide [], :local [{:command &quot;(errorMessage :mild)&quot;, :offset 20, :ns &quot;projects.functions&quot;} {:command &quot;(nth spam-finder3 2) &quot;, :offset 21, :ns &quot;projects.projectOne&quot;} {:command &quot;(rest (nth (rest spam-finder3) 1) )&quot;, :offset 35, :ns &quot;projects.projectOne&quot;} {:command &quot;(rest(nth spam-finder3 2) ) &quot;, :offset 28, :ns &quot;projects.projectOne&quot;} {:command &quot;(first(rest(nth spam-finder3 2)) ) &quot;, :offset 35, :ns &quot;projects.projectOne&quot;} {:command &quot;(first(first(rest(nth spam-finder3 2)) ) ) &quot;, :offset 43, :ns &quot;projects.projectOne&quot;} {:command &quot;(nth(first(rest(nth spam-finder3 2)) ) 1) &quot;, :offset 41, :ns &quot;projects.projectOne&quot;} {:command &quot; (get(nth(first(rest(nth spam-finder3 2)) ) 1) :b)&quot;, :offset 50, :ns &quot;projects.projectOne&quot;} {:command &quot;(concat (take 8 (repeat \&quot;na\&quot;)) [\&quot;Batman!\&quot;])&quot;, :offset 43, :ns &quot;projects.projectOne&quot;} {:command &quot;(take 3 (repeatedly (fn [] (rand-int 10))))&quot;, :offset 43, :ns &quot;projects.projectOne&quot;} {:command &quot;(grammer nathan chips)&quot;, :offset 22, :ns &quot;projects.projectOne&quot;} {:command &quot;(grammer 'nathan 'chips)&quot;, :offset 24, :ns &quot;projects.projectOne&quot;} {:command &quot;(grammer 'nathan '(a b c d e))&quot;, :offset 30, :ns &quot;projects.projectOne&quot;} {:command &quot;(grammer 'nathan 'a 'b 'c 'd 'e)&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(anom-multiplier 12)&quot;, :offset 20, :ns &quot;projects.projectOne&quot;} {:command &quot;(anom-multiplier 15)&quot;, :offset 20, :ns &quot;projects.projectOne&quot;} {:command &quot;(recursive-printer 3)&quot;, :offset 21, :ns &quot;projects.projectOne&quot;} {:command &quot;(recursive-printer 1)&quot;, :offset 21, :ns &quot;projects.projectOne&quot;} {:command &quot;(recursive-printer)&quot;, :offset 19, :ns &quot;projects.projectOne&quot;} {:command &quot;(inc3 7)&quot;, :offset 8, :ns &quot;projects.projectOne&quot;} {:command &quot;(stats [3 4 10])&quot;, :offset 16, :ns &quot;projects.projectOne&quot;} {:command &quot;(map :real identities)&quot;, :offset 22, :ns &quot;projects.projectOne&quot;} {:command &quot;thisIsAVector&quot;, :offset 13, :ns &quot;projects.dataTypes&quot;} {:command &quot;(Str thisIsAVector \&quot;test\&quot;)&quot;, :offset 26, :ns &quot;projects.dataTypes&quot;} {:command &quot;(str thisIsAVector \&quot;test\&quot;)&quot;, :offset 26, :ns &quot;projects.dataTypes&quot;} {:command &quot;(str thisIsAVector)&quot;, :offset 19, :ns &quot;projects.dataTypes&quot;} {:command &quot;(str \&quot;st\&quot; \&quot;ri\&quot; \&quot;ngs\&quot;)&quot;, :offset 21, :ns &quot;projects.dataTypes&quot;} {:command &quot;this-is-a-number&quot;, :offset 16, :ns &quot;projects.dataTypes&quot;} {:command &quot;(- 100 this-is-a-number)&quot;, :offset 24, :ns &quot;projects.dataTypes&quot;} {:command &quot;(ifOne 1 2)&quot;, :offset 11, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifOne 10 2)&quot;, :offset 12, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifTwo 10 2)&quot;, :offset 12, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifTwo 10 20)&quot;, :offset 13, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifThree 10 20)&quot;, :offset 15, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifThree 100 20)&quot;, :offset 16, :ns &quot;projects.controlFlow&quot;} {:command &quot;(whenOne 100 20)&quot;, :offset 16, :ns &quot;projects.controlFlow&quot;} {:command &quot;this-is-a-list&quot;, :offset 14, :ns &quot;projects.dataTypes&quot;} {:command &quot;(str this-is-a-string \&quot;tesingggg\&quot;)&quot;, :offset 34, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashmap :firstname \&quot;backupp\&quot;)&quot;, :offset 44, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashmap :firstjname \&quot;backupp\&quot;)&quot;, :offset 45, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashmap :firstname)&quot;, :offset 34, :ns &quot;projects.dataTypes&quot;} {:command &quot;(this-is-a-nested-hashmap [:d :a])&quot;, :offset 34, :ns &quot;projects.dataTypes&quot;} {:command &quot;(this-is-a-nested-hashmap :d :a)&quot;, :offset 32, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get-in this-is-a-nested-hashmap [:d :a])&quot;, :offset 41, :ns &quot;projects.dataTypes&quot;} {:command &quot;(:firstname this-is-a-hashmap)&quot;, :offset 30, :ns &quot;projects.dataTypes&quot;} {:command &quot;(this-is-a-hashmap :firstname)&quot;, :offset 30, :ns &quot;projects.dataTypes&quot;} {:command &quot;this-is-a-keyword&quot;, :offset 17, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-vector 0)&quot;, :offset 24, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-vector 1)&quot;, :offset 24, :ns &quot;projects.dataTypes&quot;} {:command &quot;(conj this-is-a-vector 1)&quot;, :offset 25, :ns &quot;projects.dataTypes&quot;} {:command &quot;this-is-a-hashset&quot;, :offset 17, :ns &quot;projects.dataTypes&quot;} {:command &quot;(contains? this-is-a-hashset 20) &quot;, :offset 32, :ns &quot;projects.dataTypes&quot;} {:command &quot;(21 this-is-a-hashset) &quot;, :offset 23, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashset 21) &quot;, :offset 26, :ns &quot;projects.dataTypes&quot;} {:command &quot;(20 this-is-a-hashset) &quot;, :offset 23, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashset 20) &quot;, :offset 27, :ns &quot;projects.dataTypes&quot;} {:command &quot;(splitM1[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM2[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM3[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM4[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM5[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM6[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM7[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(getTo rooms 'front-garden 'back-garden)&quot;, :offset 40, :ns &quot;projects.projectTwo&quot;} {:command &quot;(getToM5 rooms 'front-garden 'back-garden)&quot;, :offset 42, :ns &quot;projects.projectTwo&quot;} {:command &quot;(get-to rooms 'front-garden 'back-garden)&quot;, :offset 41, :ns &quot;projects.projectTwo&quot;} {:command &quot;(canDo? 1 32 lmg)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 1 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 677 lmg)&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 6.5 lmg)&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 16 lmg)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 161 lmg)&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 11 lmg)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 2 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 33 lmg)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 3 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 4 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 5 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 6 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 7 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 8 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(mod 3 35)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 4 35)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 5 35)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 5 34)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 10 5)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 10 6)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(:name(first asym-hobbit-body-parts)) &quot;, :offset 38, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace ((:name(first asym-hobbit-body-parts)) #\&quot;^left-\&quot; \&quot;right-\&quot; ))&quot;, :offset 84, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace ((str (:name(first asym-hobbit-body-parts))) #\&quot;^left-\&quot; \&quot;right-\&quot; ))&quot;, :offset 90, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace (str (:name(nth asym-hobbit-body-parts) 3 )) #\&quot;^left-\&quot; \&quot;right-\&quot; )&quot;, :offset 89, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace (str (:name(first asym-hobbit-body-parts))) #\&quot;^left-\&quot; \&quot;right-\&quot; )&quot;, :offset 88, :ns &quot;projects.dataTypes&quot;} {:command &quot;(nth asym-hobbit-body-parts 3)&quot;, :offset 30, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace (str (:name(nth asym-hobbit-body-parts 5))) #\&quot;^left-\&quot; \&quot;right-\&quot; )&quot;, :offset 88, :ns &quot;projects.dataTypes&quot;} {:command &quot;asym-hobbit-body-parts&quot;, :offset 22, :ns &quot;projects.projectTwo&quot;} {:command &quot;(first asym-hobbit-body-parts)&quot;, :offset 30, :ns &quot;projects.projectTwo&quot;} {:command &quot;(clojure.string/replace (str (:name(nth asym-hobbit-body-parts 1))) #\&quot;^left-\&quot; \&quot;right-\&quot; )&quot;, :offset 88, :ns &quot;projects.projectTwo&quot;} {:command &quot;(defn matching-part (first asym-hobbit-body-parts))&quot;, :offset 51, :ns &quot;projects.projectTwo&quot;} {:command &quot;(defn matching-part {:key a :key2 b})&quot;, :offset 37, :ns &quot;projects.projectTwo&quot;} {:command &quot;(defn matching-part \&quot;df\&quot;)&quot;, :offset 25, :ns &quot;projects.projectTwo&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1564676126301">{:repl-history {:ide [], :local [{:command &quot;(errorMessage :mild)&quot;, :offset 20, :ns &quot;projects.functions&quot;} {:command &quot;(nth spam-finder3 2) &quot;, :offset 21, :ns &quot;projects.projectOne&quot;} {:command &quot;(rest (nth (rest spam-finder3) 1) )&quot;, :offset 35, :ns &quot;projects.projectOne&quot;} {:command &quot;(rest(nth spam-finder3 2) ) &quot;, :offset 28, :ns &quot;projects.projectOne&quot;} {:command &quot;(first(rest(nth spam-finder3 2)) ) &quot;, :offset 35, :ns &quot;projects.projectOne&quot;} {:command &quot;(first(first(rest(nth spam-finder3 2)) ) ) &quot;, :offset 43, :ns &quot;projects.projectOne&quot;} {:command &quot;(nth(first(rest(nth spam-finder3 2)) ) 1) &quot;, :offset 41, :ns &quot;projects.projectOne&quot;} {:command &quot; (get(nth(first(rest(nth spam-finder3 2)) ) 1) :b)&quot;, :offset 50, :ns &quot;projects.projectOne&quot;} {:command &quot;(concat (take 8 (repeat \&quot;na\&quot;)) [\&quot;Batman!\&quot;])&quot;, :offset 43, :ns &quot;projects.projectOne&quot;} {:command &quot;(take 3 (repeatedly (fn [] (rand-int 10))))&quot;, :offset 43, :ns &quot;projects.projectOne&quot;} {:command &quot;(grammer nathan chips)&quot;, :offset 22, :ns &quot;projects.projectOne&quot;} {:command &quot;(grammer 'nathan 'chips)&quot;, :offset 24, :ns &quot;projects.projectOne&quot;} {:command &quot;(grammer 'nathan '(a b c d e))&quot;, :offset 30, :ns &quot;projects.projectOne&quot;} {:command &quot;(grammer 'nathan 'a 'b 'c 'd 'e)&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(anom-multiplier 12)&quot;, :offset 20, :ns &quot;projects.projectOne&quot;} {:command &quot;(anom-multiplier 15)&quot;, :offset 20, :ns &quot;projects.projectOne&quot;} {:command &quot;(recursive-printer 3)&quot;, :offset 21, :ns &quot;projects.projectOne&quot;} {:command &quot;(recursive-printer 1)&quot;, :offset 21, :ns &quot;projects.projectOne&quot;} {:command &quot;(recursive-printer)&quot;, :offset 19, :ns &quot;projects.projectOne&quot;} {:command &quot;(inc3 7)&quot;, :offset 8, :ns &quot;projects.projectOne&quot;} {:command &quot;(stats [3 4 10])&quot;, :offset 16, :ns &quot;projects.projectOne&quot;} {:command &quot;(map :real identities)&quot;, :offset 22, :ns &quot;projects.projectOne&quot;} {:command &quot;thisIsAVector&quot;, :offset 13, :ns &quot;projects.dataTypes&quot;} {:command &quot;(Str thisIsAVector \&quot;test\&quot;)&quot;, :offset 26, :ns &quot;projects.dataTypes&quot;} {:command &quot;(str thisIsAVector \&quot;test\&quot;)&quot;, :offset 26, :ns &quot;projects.dataTypes&quot;} {:command &quot;(str thisIsAVector)&quot;, :offset 19, :ns &quot;projects.dataTypes&quot;} {:command &quot;(str \&quot;st\&quot; \&quot;ri\&quot; \&quot;ngs\&quot;)&quot;, :offset 21, :ns &quot;projects.dataTypes&quot;} {:command &quot;this-is-a-number&quot;, :offset 16, :ns &quot;projects.dataTypes&quot;} {:command &quot;(- 100 this-is-a-number)&quot;, :offset 24, :ns &quot;projects.dataTypes&quot;} {:command &quot;(ifOne 1 2)&quot;, :offset 11, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifOne 10 2)&quot;, :offset 12, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifTwo 10 2)&quot;, :offset 12, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifTwo 10 20)&quot;, :offset 13, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifThree 10 20)&quot;, :offset 15, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifThree 100 20)&quot;, :offset 16, :ns &quot;projects.controlFlow&quot;} {:command &quot;(whenOne 100 20)&quot;, :offset 16, :ns &quot;projects.controlFlow&quot;} {:command &quot;this-is-a-list&quot;, :offset 14, :ns &quot;projects.dataTypes&quot;} {:command &quot;(str this-is-a-string \&quot;tesingggg\&quot;)&quot;, :offset 34, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashmap :firstname \&quot;backupp\&quot;)&quot;, :offset 44, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashmap :firstjname \&quot;backupp\&quot;)&quot;, :offset 45, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashmap :firstname)&quot;, :offset 34, :ns &quot;projects.dataTypes&quot;} {:command &quot;(this-is-a-nested-hashmap [:d :a])&quot;, :offset 34, :ns &quot;projects.dataTypes&quot;} {:command &quot;(this-is-a-nested-hashmap :d :a)&quot;, :offset 32, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get-in this-is-a-nested-hashmap [:d :a])&quot;, :offset 41, :ns &quot;projects.dataTypes&quot;} {:command &quot;(:firstname this-is-a-hashmap)&quot;, :offset 30, :ns &quot;projects.dataTypes&quot;} {:command &quot;(this-is-a-hashmap :firstname)&quot;, :offset 30, :ns &quot;projects.dataTypes&quot;} {:command &quot;this-is-a-keyword&quot;, :offset 17, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-vector 0)&quot;, :offset 24, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-vector 1)&quot;, :offset 24, :ns &quot;projects.dataTypes&quot;} {:command &quot;(conj this-is-a-vector 1)&quot;, :offset 25, :ns &quot;projects.dataTypes&quot;} {:command &quot;this-is-a-hashset&quot;, :offset 17, :ns &quot;projects.dataTypes&quot;} {:command &quot;(contains? this-is-a-hashset 20) &quot;, :offset 32, :ns &quot;projects.dataTypes&quot;} {:command &quot;(21 this-is-a-hashset) &quot;, :offset 23, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashset 21) &quot;, :offset 26, :ns &quot;projects.dataTypes&quot;} {:command &quot;(20 this-is-a-hashset) &quot;, :offset 23, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashset 20) &quot;, :offset 27, :ns &quot;projects.dataTypes&quot;} {:command &quot;(splitM1[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM2[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM3[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM4[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM5[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM6[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM7[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(getTo rooms 'front-garden 'back-garden)&quot;, :offset 40, :ns &quot;projects.projectTwo&quot;} {:command &quot;(getToM5 rooms 'front-garden 'back-garden)&quot;, :offset 42, :ns &quot;projects.projectTwo&quot;} {:command &quot;(get-to rooms 'front-garden 'back-garden)&quot;, :offset 41, :ns &quot;projects.projectTwo&quot;} {:command &quot;(canDo? 1 32 lmg)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 1 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 677 lmg)&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 6.5 lmg)&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 16 lmg)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 161 lmg)&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 11 lmg)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 2 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 33 lmg)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 3 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 4 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 5 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 6 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 7 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 8 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(mod 3 35)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 4 35)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 5 35)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 5 34)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 10 5)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 10 6)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(:name(first asym-hobbit-body-parts)) &quot;, :offset 38, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace ((:name(first asym-hobbit-body-parts)) #\&quot;^left-\&quot; \&quot;right-\&quot; ))&quot;, :offset 84, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace ((str (:name(first asym-hobbit-body-parts))) #\&quot;^left-\&quot; \&quot;right-\&quot; ))&quot;, :offset 90, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace (str (:name(nth asym-hobbit-body-parts) 3 )) #\&quot;^left-\&quot; \&quot;right-\&quot; )&quot;, :offset 89, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace (str (:name(first asym-hobbit-body-parts))) #\&quot;^left-\&quot; \&quot;right-\&quot; )&quot;, :offset 88, :ns &quot;projects.dataTypes&quot;} {:command &quot;(nth asym-hobbit-body-parts 3)&quot;, :offset 30, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace (str (:name(nth asym-hobbit-body-parts 5))) #\&quot;^left-\&quot; \&quot;right-\&quot; )&quot;, :offset 88, :ns &quot;projects.dataTypes&quot;} {:command &quot;asym-hobbit-body-parts&quot;, :offset 22, :ns &quot;projects.projectTwo&quot;} {:command &quot;(first asym-hobbit-body-parts)&quot;, :offset 30, :ns &quot;projects.projectTwo&quot;} {:command &quot;(clojure.string/replace (str (:name(nth asym-hobbit-body-parts 1))) #\&quot;^left-\&quot; \&quot;right-\&quot; )&quot;, :offset 88, :ns &quot;projects.projectTwo&quot;} {:command &quot;(defn matching-part (first asym-hobbit-body-parts))&quot;, :offset 51, :ns &quot;projects.projectTwo&quot;} {:command &quot;(defn matching-part {:key a :key2 b})&quot;, :offset 37, :ns &quot;projects.projectTwo&quot;} {:command &quot;(defn matching-part \&quot;df\&quot;)&quot;, :offset 25, :ns &quot;projects.projectTwo&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -278,7 +257,37 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29252437" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329718" />
+      <window_info anchor="right" id="Maven Projects" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="REPL" order="6" sideWeight="0.97180045" side_tool="true" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Leiningen" order="7" sideWeight="0.028199567" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -295,36 +304,6 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="REPL" order="6" side_tool="true" visible="true" weight="0.32782516" />
-      <window_info anchor="right" id="Leiningen" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29252437" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Maven Projects" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -332,7 +311,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="REPL" order="7" side_tool="true" visible="true" weight="0.36247334" />
+      <window_info active="true" anchor="right" id="REPL" order="7" side_tool="true" visible="true" weight="0.41897655" />
       <window_info anchor="right" id="Leiningen" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
@@ -340,6 +319,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/imports/trace.clj">
@@ -356,45 +339,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/projectOne.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/notepad.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/dataTypes.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/controlFlow.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/recursion.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/functions.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -405,10 +353,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/projectOne.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/projectTwo.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="542">
+          <caret line="44" column="67" lean-forward="true" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/dataTypes.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/controlFlow.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/functions.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="160" column="37" lean-forward="true" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

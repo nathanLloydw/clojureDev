@@ -28,7 +28,7 @@
 ;;hash-maps can contain any types
 
 (def this-is-a-hashset #{"kurt vonnegut" 20 :icicle})
-;;hashsets can be created with the hash-set function
+;;hashsets can be created with the hash-set or set function
 ;;you cant have duplicate values in a hash set.
 ;;you can create a hash set from vectors or lists by using the set function.
 ;;you can use the contains? function to see if it has the value, it returns true or false.

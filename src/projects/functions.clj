@@ -53,11 +53,11 @@
           :else "CONFUUSSSEEEDDDD!")))
 ;;i have used the cond function for multiple conditions rather than the if for one condition.
 
-;;----------------------------------- random function ---------------------------------
+;;------------------------------------------------- random function -----------------------------------------------------
 ;;you can also use the function identity to return the argument with out altering it.
-;;-------------------------------------------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------------
 
-;; ---------------------------------- Deconstructing ----------------------------------
+;; ------------------------------------------------ Deconstructing -------------------------------------------------------
 
 ;;this is deconstructing in use, as you can see you can split where the value would be into sub values by putting it in brackets.
 ;;e.g. (deconstructingTest ["a" "b" "c"] ["d" "e" "f"] ["g" "h" "i"])
@@ -87,16 +87,51 @@
   (println (str "Treasure lng : " lng)))
 
 ;;You can retain access to the original map argument by using the :as keyword.
-;; In the following example, the original map is accessed with treasure-location:
+;; In the following example, the original map is still accessable with in treasure-location:
 
 (defn receive-treasure-location
   [{:keys [lat lng] :as treasure-location}]
   (println (str "Treasure lat: " lat))
-  (println (str "Treasure lng: " lng)))
+  (println (str "Treasure lng: " lng))
+  (println (str "all together now: " treasure-location)))
 ;;In general, you can think of destructuring as instructing Clojure on how to associate
 ;; names with values in a list, map, set, or vector.
 
-;;------------------------- Anonymous Functions & returns -------------------------------
+;;-------------------------------------------- Let & In body deconstruction ---------------------------------------------
+
+;;basic example of let being used to mess with the data we was given.
+;; this can be done without let but this makes it more simple
+(defn grammer-me-up [she he]
+  (let [hers (str she "'s")
+        his (str he "'s")]
+    (str hers " and " his)))
+
+;;we can bind an anonymous with in the function for local use.
+;;here we can see we use let on three values, we first bind a function and then bind strings to that functions output,
+;; for example:
+(defn grammer-me-easy [she he]
+  (let [possessive (fn [x] (str x "'s"))
+        hers (possessive she)
+        his (possessive he)]
+    (str his " and " hers)))
+
+;;another example testing if three numbers make a right angle:
+(defn right-triangle? [coll]
+  (let [a-square (* (nth coll 0) (nth coll 0))
+        b-square (* (nth coll 1) (nth coll 1))
+        c-square (* (nth coll 2) (nth coll 2))]
+    (do (println a-square b-square c-square) (= (+ a-square b-square) c-square))))
+
+;;to make this function a little bit more readable and better i can deconstruct the params:
+(defn right-triangle? [[a b c]]
+  (let [a-square (* a a)
+        b-square (* b b)
+        c-square (* c c)]
+    (do (println a-square b-square c-square) (= (+ a-square b-square) c-square))))
+
+;;let is simply deconstructing outside of the params container.
+
+;;-------------------------------------------- Anonymous Functions & returns --------------------------------------------
 
 ;; anonymous function syntax,
 ;; cant be called to be used with in other functions all calls:
@@ -116,5 +151,12 @@
 ;;thats because its not a function, its a variable. once called the function is returned.
 ;;you do not send the function a value the function is returned to it.
 
+;;here is a good example of anonymous functions in use:
 
+(def sum #(reduce + %))
+(def avg #(/ (sum %) (count %)))
+
+(defn stats
+  [numbers]
+  (map #(% numbers) [sum count avg]))
 

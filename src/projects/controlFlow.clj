@@ -3,6 +3,7 @@
 (use '[imports.matcher :refer :all])
 (use '[imports.trace :refer :all])
 
+;;---------------------------------------------------- Conditional ---------------------------------------------------------
 (defn ifOne [a b]
   (if (> a b)
     "true/return values"
@@ -44,3 +45,51 @@
          (= severity :serious) "DOOOOOOOMED!"
          :else "CONFUUSSSEEEDDDD!")))
 ;;here i have used the cond function to deal with multiple conditions.
+
+;;------------------------------------------------------ Recursion --------------------------------------------------------
+
+;;you can recur in a function by simply calling it again and pass different paramaters, for example:
+
+(defn fact-head ([x] (fact-head x (- x 1)))      ;;this is known as tail recursion (trace-vars fact-head)
+  ([x c]
+   (if (= c 1)
+     x
+     (fact-head (* x c) (dec c)))))
+
+(defn fact-tail [x]                              ;;this is known as head recursion (trace-vars fact-tail)
+  (if (= x 1)
+    1
+    (* x (fact-tail (dec x)))))
+
+;; here is another couple of example of recursion through self call:
+(defn length [lis]
+  (if (empty? lis)
+    0
+    (inc (length (rest lis)))))
+
+(defn sum-list [lis]
+  (if (empty? lis)
+    0
+    (+ (first lis) (sum-list (rest lis)))))
+
+(defn spam-num [lis]
+  (cond
+    (empty? lis)
+    nil
+    (number? (first lis))
+    (cons 'spam (spam-num (rest lis)))
+
+    :else
+    (cons (first lis) (spam-num (rest lis)))))
+
+;;this next example uses the built in loop/recur function:
+(defn factorial [x]
+  (loop [fact x count (- x 1)]
+    (if (= count 1)
+      fact
+      (recur (* fact count) (dec count)))))
+;;using the loop/recur function only works from the tail position.
+
+;; loop is the recursion point for recur. The symbols in loop's binding-forms are bound to their respective init-exprs
+;; and rebound to the values of recur's exprs before the next execution of the loop's body.
+
