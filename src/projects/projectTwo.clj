@@ -2,118 +2,44 @@
 
 (use '[imports.matcher :refer :all])
 (use '[imports.trace :refer :all])
+(use '[projects.dataTypes :refer :all])
 
+;;this example looks like it deconstructs it whilst running the body/return
+(defn matching-part00
+  [part]
+  {:name (clojure.string/replace (:name part) #"^left-" "right-")
+   :size (:size part)})
 
-(defn lazy-contains? [col key]
-  (some #{key} col))
+;;this is another exmaple which i dont quite understand but i re-wrote it at the bottom
+(defn symmetrize-body-parts
+  "Expects a seq of maps that have a :name and :size"
+  [asym-body-parts]
+  (loop [remaining-asym-parts asym-body-parts
+         final-body-parts []]
+    (if (empty? remaining-asym-parts)
+      final-body-parts
+      (let [[part & remaining] remaining-asym-parts]
+        (recur remaining
+               (into final-body-parts
+                     (set [part (matching-part00 part)])))))))
 
-(defn list-contains? [coll value]
-  (let [s (seq coll)]
-    (if s
-      (if (= (first s) value) true (recur (rest s) value))
-      false)))
+;; remove nil values:
+;; (remove nil? (map matching-part asym-hobbit-body-parts))
+;; turn the list into a vector:
+;; (into [] (remove nil? (map matching-part02 asym-hobbit-body-parts)))
+;; i can put it all into one map using:
+;; (conj asym-hobbit-body-parts (remove nil? (map matching-part asym-hobbit-body-parts)))
+;; to bring them both together with the right data type i can use:
+;; (into (into [] (remove nil? (map matching-part02 asym-hobbit-body-parts))) asym-hobbit-body-parts)
 
-(defn includes?
-  "True if s includes substr."
-  {:added "1.8"}
-  [^CharSequence s ^CharSequence substr]
-  (.contains (.toString s) substr))
+;;this version only returns the new parts and with this calll it doesnt return any nil values:
+;;using the function i mentioned above i wrote a version which i understand,
+;;the only difference is the order the maps are listed
+(defn matching-part01
+  [{part :name size :size}]
+  (if (clojure.string/includes? part "left")
+    (hash-map :name (clojure.string/replace part #"^left-" "right-") :size size)))
 
-(defn index-of [e coll] (first (keep-indexed #(if (= e %2) %1) coll)))
-
-(def rooms
-  '((connects front-door front-garden hall)
-     (connects front-door hall front-garden)
-     (connects yellow-door bedroom hall)
-     (connects yellow-door hall bedroom)
-     (connects back-door hall kitchen)
-     (connects hall-way hall concivatory)
-     (connects back-door back-garden hall)
-     (connects blue-door kitchen back-garden)
-     (connects dog-door concivatory back-garden)
-     (connects dog-door concivatory kitchen)
-     (connects dog-door concivatory bathroom)
-     (connects dog-door bathroom hall)
-     ))
-
-
-;;(getTo rooms 'front-garden 'back-garden)
-
-(defn getTo
-  [rooms from to]
-  (for [room rooms]
-    (cond (= from to)
-          (println "im their")
-          (= (nth room 2) from)
-          (getTo rooms (nth room 3) to))))
-
-(defn getToM2
-  [rooms from to]
-  (cond (= from to)
-        true
-
-        (lazy-contains? (first rooms) from)
-        (getToM2 (next rooms)(nth (first rooms) 3) to)
-
-        :else
-        false))
-
-(defn getToM3
-  ([rooms from to]
-   (getToM3 rooms from to (str "been: " from " ")))
-  ([rooms from to been]
-   (cond (= from to)
-         (str been)
-
-         (nil? (next rooms))
-         (str been ",ran out of rooms to move")
-
-         (includes? (nth (first rooms) 2) (str from))
-         (getToM3 (next rooms)(nth (first rooms) 3) to (str been (nth (first rooms)3) " "))
-
-         :else
-         (getToM3 (next rooms) from to (str been )))))
-
-(defn getToM4
-  ([rooms from to]
-   (getToM4 rooms from to (str "been: " from " ")))
-  ([rooms from to been]
-   (cond (= from to)
-         (str been)
-
-         (nil? (next rooms))
-         (str been ",ran out of rooms to move")
-
-         (includes? (nth (first rooms) 2) (str from))
-         (getToM4 (shuffle(next rooms))(nth (first rooms) 3) to (str been (nth (first rooms)3) " "))
-
-         )))
-
-(defn getToM5
-  ([rooms location destination]
-   (getToM5 rooms location destination  (str "route: " location " ") (str "dead ends: ")))
-  ([rooms location destination route deadend]
-   (cond (= location destination)
-         (str route)
-
-         (nil? (next rooms))
-         (str route ",ran out of rooms to move")
-
-         (not= location destination)
-         (str "not their yet")
-
-         :else
-         (getToM5 rooms location destination (str route ) (str deadend)))))
-
-(defn get-to
-  ([rooms from to] (get-to rooms from to #{} []))
-  ([rooms from to been-here route]
-   (cond (= from to)
-         route
-
-         (been-here from)
-         nil
-
-         :else
-         (mfor [['connects '?door from '?next] rooms]
-               (get-to rooms (? next) to (conj been-here from) (conj route from))))))
+(defn symmetrize-hobit
+  [hobit]
+  (into (into [] (remove nil? (map matching-part01 hobit))) hobit))
