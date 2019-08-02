@@ -82,12 +82,20 @@
     :else
     (cons (first lis) (spam-num (rest lis)))))
 
-;;this next example uses the built in loop/recur function:
+;;this next couple of example uses the built in loop/recur function:
 (defn factorial [x]
   (loop [fact x count (- x 1)]
     (if (= count 1)
       fact
       (recur (* fact count) (dec count)))))
+
+;;this example does not have the loop in because i dont need any more variables:
+(defn boom [x]
+    (if (= x 0)
+      (println "Boooom!!")
+      (do (println x) (recur (- x 1)))))
+
+
 ;;using the loop/recur function only works from the tail position.
 
 ;; loop is the recursion point for recur. The symbols in loop's binding-forms are bound to their respective init-exprs

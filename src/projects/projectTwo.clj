@@ -10,18 +10,15 @@
   {:name (clojure.string/replace (:name part) #"^left-" "right-")
    :size (:size part)})
 
-;;this is another exmaple which i dont quite understand but i re-wrote it at the bottom
+;;this is an example online, after looking into the different functions in use i finally understand it
 (defn symmetrize-body-parts
   "Expects a seq of maps that have a :name and :size"
   [asym-body-parts]
-  (loop [remaining-asym-parts asym-body-parts
-         final-body-parts []]
+  (loop [remaining-asym-parts asym-body-parts final-body-parts []]
     (if (empty? remaining-asym-parts)
       final-body-parts
       (let [[part & remaining] remaining-asym-parts]
-        (recur remaining
-               (into final-body-parts
-                     (set [part (matching-part00 part)])))))))
+        (recur remaining (into final-body-parts (set [part (matching-part00 part)])))))))
 
 ;; remove nil values:
 ;; (remove nil? (map matching-part asym-hobbit-body-parts))

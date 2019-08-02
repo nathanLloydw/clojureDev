@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf41d459-884f-45f9-be37-13d0a307c19d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/projects/regularExpressions.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/controlFlow.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/controlFlow.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/projectTwo.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/projectTwo.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,33 +30,69 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="clj" value="8907" />
+          <entry key="clj" value="11546" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Clojure" value="8907" />
+          <entry key="Clojure" value="11546" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="clj" value="5" />
+          <entry key="clj" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Clojure" value="5" />
+          <entry key="Clojure" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/notepad.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projects/projectTwo.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="100" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
+            <state relative-caret-position="408">
+              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/projects/functions.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="968">
+              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/projects/regularExpressions.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="58" lean-forward="true" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/projects/controlFlow.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -81,11 +120,12 @@
         <option value="$PROJECT_DIR$/src/projects/recursion.clj" />
         <option value="$PROJECT_DIR$/src/projects/projectOne.clj" />
         <option value="$PROJECT_DIR$/src/projects/projectThree.clj" />
-        <option value="$PROJECT_DIR$/src/projects/controlFlow.clj" />
         <option value="$PROJECT_DIR$/src/notepad.clj" />
         <option value="$PROJECT_DIR$/src/projects/dataTypes.clj" />
         <option value="$PROJECT_DIR$/src/projects/functions.clj" />
         <option value="$PROJECT_DIR$/src/projects/projectTwo.clj" />
+        <option value="$PROJECT_DIR$/src/projects/controlFlow.clj" />
+        <option value="$PROJECT_DIR$/src/projects/regularExpressions.clj" />
       </list>
     </option>
   </component>
@@ -135,12 +175,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564678384299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564750688277" />
     <property name="cursive.last.file.extension.C\:/Users/Nathan/Desktop/Projects/clojureDev/src" value="clj" />
     <property name="cursive.last.file.extension.C\:/Users/n.williams/Documents/GitHub/clojureDev/src" value="clj" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ReplState" timestamp="1564678384295">{:repl-history {:ide [], :local [{:command &quot;(errorMessage :mild)&quot;, :offset 20, :ns &quot;projects.functions&quot;} {:command &quot;(nth spam-finder3 2) &quot;, :offset 21, :ns &quot;projects.projectOne&quot;} {:command &quot;(rest (nth (rest spam-finder3) 1) )&quot;, :offset 35, :ns &quot;projects.projectOne&quot;} {:command &quot;(rest(nth spam-finder3 2) ) &quot;, :offset 28, :ns &quot;projects.projectOne&quot;} {:command &quot;(first(rest(nth spam-finder3 2)) ) &quot;, :offset 35, :ns &quot;projects.projectOne&quot;} {:command &quot;(first(first(rest(nth spam-finder3 2)) ) ) &quot;, :offset 43, :ns &quot;projects.projectOne&quot;} {:command &quot;(nth(first(rest(nth spam-finder3 2)) ) 1) &quot;, :offset 41, :ns &quot;projects.projectOne&quot;} {:command &quot; (get(nth(first(rest(nth spam-finder3 2)) ) 1) :b)&quot;, :offset 50, :ns &quot;projects.projectOne&quot;} {:command &quot;(concat (take 8 (repeat \&quot;na\&quot;)) [\&quot;Batman!\&quot;])&quot;, :offset 43, :ns &quot;projects.projectOne&quot;} {:command &quot;(take 3 (repeatedly (fn [] (rand-int 10))))&quot;, :offset 43, :ns &quot;projects.projectOne&quot;} {:command &quot;(grammer nathan chips)&quot;, :offset 22, :ns &quot;projects.projectOne&quot;} {:command &quot;(grammer 'nathan 'chips)&quot;, :offset 24, :ns &quot;projects.projectOne&quot;} {:command &quot;(grammer 'nathan '(a b c d e))&quot;, :offset 30, :ns &quot;projects.projectOne&quot;} {:command &quot;(grammer 'nathan 'a 'b 'c 'd 'e)&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(anom-multiplier 12)&quot;, :offset 20, :ns &quot;projects.projectOne&quot;} {:command &quot;(anom-multiplier 15)&quot;, :offset 20, :ns &quot;projects.projectOne&quot;} {:command &quot;(recursive-printer 3)&quot;, :offset 21, :ns &quot;projects.projectOne&quot;} {:command &quot;(recursive-printer 1)&quot;, :offset 21, :ns &quot;projects.projectOne&quot;} {:command &quot;(recursive-printer)&quot;, :offset 19, :ns &quot;projects.projectOne&quot;} {:command &quot;(inc3 7)&quot;, :offset 8, :ns &quot;projects.projectOne&quot;} {:command &quot;(stats [3 4 10])&quot;, :offset 16, :ns &quot;projects.projectOne&quot;} {:command &quot;(map :real identities)&quot;, :offset 22, :ns &quot;projects.projectOne&quot;} {:command &quot;thisIsAVector&quot;, :offset 13, :ns &quot;projects.dataTypes&quot;} {:command &quot;(Str thisIsAVector \&quot;test\&quot;)&quot;, :offset 26, :ns &quot;projects.dataTypes&quot;} {:command &quot;(str thisIsAVector \&quot;test\&quot;)&quot;, :offset 26, :ns &quot;projects.dataTypes&quot;} {:command &quot;(str thisIsAVector)&quot;, :offset 19, :ns &quot;projects.dataTypes&quot;} {:command &quot;(str \&quot;st\&quot; \&quot;ri\&quot; \&quot;ngs\&quot;)&quot;, :offset 21, :ns &quot;projects.dataTypes&quot;} {:command &quot;this-is-a-number&quot;, :offset 16, :ns &quot;projects.dataTypes&quot;} {:command &quot;(- 100 this-is-a-number)&quot;, :offset 24, :ns &quot;projects.dataTypes&quot;} {:command &quot;(ifOne 1 2)&quot;, :offset 11, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifOne 10 2)&quot;, :offset 12, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifTwo 10 2)&quot;, :offset 12, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifTwo 10 20)&quot;, :offset 13, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifThree 10 20)&quot;, :offset 15, :ns &quot;projects.controlFlow&quot;} {:command &quot;(ifThree 100 20)&quot;, :offset 16, :ns &quot;projects.controlFlow&quot;} {:command &quot;(whenOne 100 20)&quot;, :offset 16, :ns &quot;projects.controlFlow&quot;} {:command &quot;this-is-a-list&quot;, :offset 14, :ns &quot;projects.dataTypes&quot;} {:command &quot;(str this-is-a-string \&quot;tesingggg\&quot;)&quot;, :offset 34, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashmap :firstname \&quot;backupp\&quot;)&quot;, :offset 44, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashmap :firstjname \&quot;backupp\&quot;)&quot;, :offset 45, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashmap :firstname)&quot;, :offset 34, :ns &quot;projects.dataTypes&quot;} {:command &quot;(this-is-a-nested-hashmap [:d :a])&quot;, :offset 34, :ns &quot;projects.dataTypes&quot;} {:command &quot;(this-is-a-nested-hashmap :d :a)&quot;, :offset 32, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get-in this-is-a-nested-hashmap [:d :a])&quot;, :offset 41, :ns &quot;projects.dataTypes&quot;} {:command &quot;(:firstname this-is-a-hashmap)&quot;, :offset 30, :ns &quot;projects.dataTypes&quot;} {:command &quot;(this-is-a-hashmap :firstname)&quot;, :offset 30, :ns &quot;projects.dataTypes&quot;} {:command &quot;this-is-a-keyword&quot;, :offset 17, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-vector 0)&quot;, :offset 24, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-vector 1)&quot;, :offset 24, :ns &quot;projects.dataTypes&quot;} {:command &quot;(conj this-is-a-vector 1)&quot;, :offset 25, :ns &quot;projects.dataTypes&quot;} {:command &quot;this-is-a-hashset&quot;, :offset 17, :ns &quot;projects.dataTypes&quot;} {:command &quot;(contains? this-is-a-hashset 20) &quot;, :offset 32, :ns &quot;projects.dataTypes&quot;} {:command &quot;(21 this-is-a-hashset) &quot;, :offset 23, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashset 21) &quot;, :offset 26, :ns &quot;projects.dataTypes&quot;} {:command &quot;(20 this-is-a-hashset) &quot;, :offset 23, :ns &quot;projects.dataTypes&quot;} {:command &quot;(get this-is-a-hashset 20) &quot;, :offset 27, :ns &quot;projects.dataTypes&quot;} {:command &quot;(splitM1[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM2[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM3[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM4[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM5[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM6[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(splitM7[1 2 5 3 \&quot;A\&quot; \&quot;H\&quot; 5 \&quot;C\&quot;])&quot;, :offset 32, :ns &quot;projects.projectOne&quot;} {:command &quot;(getTo rooms 'front-garden 'back-garden)&quot;, :offset 40, :ns &quot;projects.projectTwo&quot;} {:command &quot;(getToM5 rooms 'front-garden 'back-garden)&quot;, :offset 42, :ns &quot;projects.projectTwo&quot;} {:command &quot;(get-to rooms 'front-garden 'back-garden)&quot;, :offset 41, :ns &quot;projects.projectTwo&quot;} {:command &quot;(canDo? 1 32 lmg)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 1 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 677 lmg)&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 6.5 lmg)&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 16 lmg)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 161 lmg)&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 11 lmg)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 2 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 33 lmg)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 3 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 4 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 5 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 6 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 7 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(canDo? 1 8 lmg)&quot;, :offset 16, :ns &quot;notepad&quot;} {:command &quot;(mod 3 35)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 4 35)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 5 35)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 5 34)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 10 5)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(mod 10 6)&quot;, :offset 10, :ns &quot;notepad&quot;} {:command &quot;(:name(first asym-hobbit-body-parts)) &quot;, :offset 38, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace ((:name(first asym-hobbit-body-parts)) #\&quot;^left-\&quot; \&quot;right-\&quot; ))&quot;, :offset 84, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace ((str (:name(first asym-hobbit-body-parts))) #\&quot;^left-\&quot; \&quot;right-\&quot; ))&quot;, :offset 90, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace (str (:name(nth asym-hobbit-body-parts) 3 )) #\&quot;^left-\&quot; \&quot;right-\&quot; )&quot;, :offset 89, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace (str (:name(first asym-hobbit-body-parts))) #\&quot;^left-\&quot; \&quot;right-\&quot; )&quot;, :offset 88, :ns &quot;projects.dataTypes&quot;} {:command &quot;(nth asym-hobbit-body-parts 3)&quot;, :offset 30, :ns &quot;projects.dataTypes&quot;} {:command &quot;(clojure.string/replace (str (:name(nth asym-hobbit-body-parts 5))) #\&quot;^left-\&quot; \&quot;right-\&quot; )&quot;, :offset 88, :ns &quot;projects.dataTypes&quot;} {:command &quot;asym-hobbit-body-parts&quot;, :offset 22, :ns &quot;projects.projectTwo&quot;} {:command &quot;(first asym-hobbit-body-parts)&quot;, :offset 30, :ns &quot;projects.projectTwo&quot;} {:command &quot;(clojure.string/replace (str (:name(nth asym-hobbit-body-parts 1))) #\&quot;^left-\&quot; \&quot;right-\&quot; )&quot;, :offset 88, :ns &quot;projects.projectTwo&quot;} {:command &quot;(defn matching-part (first asym-hobbit-body-parts))&quot;, :offset 51, :ns &quot;projects.projectTwo&quot;} {:command &quot;(defn matching-part {:key a :key2 b})&quot;, :offset 37, :ns &quot;projects.projectTwo&quot;} {:command &quot;(defn matching-part \&quot;df\&quot;)&quot;, :offset 25, :ns &quot;projects.projectTwo&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1564750688272">{:repl-history {:ide [], :local [{:command &quot;(defn matching-part \&quot;df\&quot;)&quot;, :offset 25, :ns &quot;projects.projectTwo&quot;} {:command &quot;(map matching-part01 asym-hobbit-body-parts)&quot;, :offset 44, :ns &quot;projects.projectTwo&quot;} {:command &quot;(vector matching-part02 asym-hobbit-body-parts)&quot;, :offset 47, :ns &quot;projects.projectTwo&quot;} {:command &quot;(vector (map matching-part02 asym-hobbit-body-parts))&quot;, :offset 53, :ns &quot;projects.projectTwo&quot;} {:command &quot;(map matching-part02 asym-hobbit-body-parts)&quot;, :offset 44, :ns &quot;projects.projectTwo&quot;} {:command &quot;(into [] (map matching-part02 asym-hobbit-body-parts))&quot;, :offset 54, :ns &quot;projects.projectTwo&quot;} {:command &quot;(conj asym-hobbit-body-parts (into [] (remove nil? (map matching-part02 asym-hobbit-body-parts))))&quot;, :offset 98, :ns &quot;projects.projectTwo&quot;} {:command &quot;(into [] asym-hobbit-body-parts (remove nil? (map matching-part02 asym-hobbit-body-parts)))&quot;, :offset 91, :ns &quot;projects.projectTwo&quot;} {:command &quot;(into [] (remove nil? (map matching-part02 asym-hobbit-body-parts)))&quot;, :offset 68, :ns &quot;projects.projectTwo&quot;} {:command &quot;(into (into [] (remove nil? (map matching-part02 asym-hobbit-body-parts))) asym-hobbit-body-parts)&quot;, :offset 98, :ns &quot;projects.projectTwo&quot;} {:command &quot;(symmetrize-body-parts asym-hobbit-body-parts)&quot;, :offset 46, :ns &quot;projects.projectTwo&quot;} {:command &quot;(let [x 3])&quot;, :offset 11, :ns &quot;projects.projectTwo&quot;} {:command &quot;(let [x 3] x)&quot;, :offset 13, :ns &quot;projects.projectTwo&quot;} {:command &quot;(let [{:keys [a b] :as m} (:x {})] [a b m])&quot;, :offset 43, :ns &quot;projects.projectTwo&quot;} {:command &quot;(receive-treasure-location {:lat 12 :lng 23})&quot;, :offset 45, :ns &quot;projects.functions&quot;} {:command &quot;(grammer-me-up \&quot;nathan\&quot; \&quot;sarah\&quot;)&quot;, :offset 32, :ns &quot;projects.functions&quot;} {:command &quot;(grammer-me-easy \&quot;nathan\&quot; \&quot;sarah\&quot;)&quot;, :offset 34, :ns &quot;projects.functions&quot;} {:command &quot;(right-triangle? [1 2 5])&quot;, :offset 25, :ns &quot;projects.functions&quot;} {:command &quot;(right-triangle? [1 2 3])&quot;, :offset 25, :ns &quot;projects.functions&quot;} {:command &quot;(right-triangle? [1 3 3])&quot;, :offset 25, :ns &quot;projects.functions&quot;} {:command &quot;(right-triangle? [1 3 4])&quot;, :offset 25, :ns &quot;projects.functions&quot;} {:command &quot;(right-triangle? [2 3 4])&quot;, :offset 25, :ns &quot;projects.functions&quot;} {:command &quot;(right-triangle? [3 3 4])&quot;, :offset 25, :ns &quot;projects.functions&quot;} {:command &quot;(right-triangle? [2 2 4])&quot;, :offset 25, :ns &quot;projects.functions&quot;} {:command &quot;(right-triangle? [3 4 5])&quot;, :offset 25, :ns &quot;projects.functions&quot;} {:command &quot;(receive-treasure-location {:lat 12 :lng 2342})&quot;, :offset 47, :ns &quot;projects.functions&quot;} {:command &quot;(+ 5 4 3 2 1)&quot;, :offset 13, :ns &quot;projects.controlFlow&quot;} {:command &quot;(fact 1)&quot;, :offset 8, :ns &quot;projects.controlFlow&quot;} {:command &quot;(fact 2)&quot;, :offset 8, :ns &quot;projects.controlFlow&quot;} {:command &quot;(fact 3)&quot;, :offset 8, :ns &quot;projects.controlFlow&quot;} {:command &quot;(+ 4 3 2 1)&quot;, :offset 11, :ns &quot;projects.controlFlow&quot;} {:command &quot;(fact 4)&quot;, :offset 8, :ns &quot;projects.controlFlow&quot;} {:command &quot;(trace-vars fact)&quot;, :offset 17, :ns &quot;projects.controlFlow&quot;} {:command &quot;(fact 5)&quot;, :offset 8, :ns &quot;projects.controlFlow&quot;} {:command &quot;(trace-vars fact-tail)&quot;, :offset 22, :ns &quot;projects.controlFlow&quot;} {:command &quot;(trace-vars fact-head)&quot;, :offset 22, :ns &quot;projects.controlFlow&quot;} {:command &quot;(fact-tail 5)&quot;, :offset 13, :ns &quot;projects.controlFlow&quot;} {:command &quot;(fact-head 5)&quot;, :offset 13, :ns &quot;projects.controlFlow&quot;} {:command &quot;(trace-vars factorial)&quot;, :offset 22, :ns &quot;projects.controlFlow&quot;} {:command &quot;(factorial 5)&quot;, :offset 13, :ns &quot;projects.controlFlow&quot;} {:command &quot;(minus-two 12)&quot;, :offset 14, :ns &quot;projects.controlFlow&quot;} {:command &quot;recursive-printer&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(recursive-printer)&quot;, :offset 19, :ns &quot;notepad&quot;} {:command &quot;(cnt-dwn-head 4 4)&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(cnt-dwn-head 4 6)&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(cnt-dwn-head 4 2)&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(cnt-dwn-head 62)&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(cnt-dwn-head 62 65)&quot;, :offset 20, :ns &quot;notepad&quot;} {:command &quot;(cnt-dwn-head \&quot;\&quot; \&quot;\&quot;)&quot;, :offset 20, :ns &quot;notepad&quot;} {:command &quot;(cnt-dwn-head \&quot;12\&quot; \&quot;12\&quot;)&quot;, :offset 24, :ns &quot;notepad&quot;} {:command &quot;(cnt-dwn-head (int 1) (int 10))&quot;, :offset 31, :ns &quot;notepad&quot;} {:command &quot;(cnt-dwn-head 123 12345)&quot;, :offset 24, :ns &quot;notepad&quot;} {:command &quot;(cnt-dwn-head [1 2 3] [1 2 3 4 5])&quot;, :offset 34, :ns &quot;notepad&quot;} {:command &quot;(cnt-dwn-tail 1 2 )&quot;, :offset 19, :ns &quot;notepad&quot;} {:command &quot;(cnt-dwn-tail 1 2 4)&quot;, :offset 20, :ns &quot;notepad&quot;} {:command &quot;(inc-1st '( 1 2 3 4))&quot;, :offset 21, :ns &quot;notepad&quot;} {:command &quot;(inc-1st [1 2 3 4])&quot;, :offset 19, :ns &quot;notepad&quot;} {:command &quot;(vec-1st [1 2 3 4])&quot;, :offset 19, :ns &quot;notepad&quot;} {:command &quot;(trace-vars length)&quot;, :offset 19, :ns &quot;notepad&quot;} {:command &quot;(length [1 2 3 4])&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(sum-list [1 2 3 4])&quot;, :offset 20, :ns &quot;notepad&quot;} {:command &quot;(spam-lis [1 2 3 4])&quot;, :offset 20, :ns &quot;notepad&quot;} {:command &quot;(spam-num [1 2 3 4])&quot;, :offset 20, :ns &quot;notepad&quot;} {:command &quot;(spam-num [1 2 \&quot;a\&quot; 3 4])&quot;, :offset 24, :ns &quot;notepad&quot;} {:command &quot;(recursive-printer 0)&quot;, :offset 21, :ns &quot;notepad&quot;} {:command &quot;(count 2 2)&quot;, :offset 11, :ns &quot;notepad&quot;} {:command &quot;(count 2)&quot;, :offset 9, :ns &quot;notepad&quot;} {:command &quot;(count '(1 2 3 4))&quot;, :offset 18, :ns &quot;notepad&quot;} {:command &quot;(reduce + [1 2 3 4 5])&quot;, :offset 22, :ns &quot;notepad&quot;} {:command &quot;(reduce + [5 5 5 5 5])&quot;, :offset 22, :ns &quot;notepad&quot;} {:command &quot;(sum [5 5 5 5 5])&quot;, :offset 17, :ns &quot;notepad&quot;} {:command &quot;(/ (sum [5 5 5 5 5]) (count [5 5 5 5 5]))&quot;, :offset 41, :ns &quot;notepad&quot;} {:command &quot;(map [1 2 3] [1 2 3])&quot;, :offset 21, :ns &quot;projects.functions&quot;} {:command &quot;(map + [1 2 3] [1 2 3])&quot;, :offset 23, :ns &quot;projects.functions&quot;} {:command &quot;(map inc [1 2 3] [1 2 3])&quot;, :offset 25, :ns &quot;projects.functions&quot;} {:command &quot;(map inc [1 2 3])&quot;, :offset 17, :ns &quot;projects.functions&quot;} {:command &quot;(sum [1 2 3 4 5])&quot;, :offset 17, :ns &quot;projects.functions&quot;} {:command &quot;(stats [1 2 3 4])&quot;, :offset 17, :ns &quot;projects.functions&quot;} {:command &quot;(stats [31 24 333 443])&quot;, :offset 23, :ns &quot;projects.functions&quot;} {:command &quot;(hash-set [1 2 3 4])&quot;, :offset 20, :ns &quot;projects.functions&quot;} {:command &quot;(stats [3 4 10])&quot;, :offset 16, :ns &quot;projects.functions&quot;} {:command &quot;(defn symmetrize-hobit asym-hobbit-body-parts)&quot;, :offset 46, :ns &quot;projects.projectTwo&quot;} {:command &quot;(symmetrize-hobit asym-hobbit-body-parts)&quot;, :offset 41, :ns &quot;projects.projectTwo&quot;} {:command &quot;(set (nth asym-hobbit-body-parts 1) (matching-part01 (nth asym-hobbit-body-parts 1)))&quot;, :offset 85, :ns &quot;projects.projectTwo&quot;} {:command &quot;(set (nth asym-hobbit-body-parts 1))&quot;, :offset 36, :ns &quot;projects.projectTwo&quot;} {:command &quot;(set [nth asym-hobbit-body-parts 1] )&quot;, :offset 37, :ns &quot;projects.projectTwo&quot;} {:command &quot;(set (nth asym-hobbit-body-parts 1) (nth asym-hobbit-body-parts 1) )&quot;, :offset 68, :ns &quot;projects.projectTwo&quot;} {:command &quot;(set [(nth asym-hobbit-body-parts 1) (nth asym-hobbit-body-parts 1)])&quot;, :offset 69, :ns &quot;projects.projectTwo&quot;} {:command &quot;(set [(nth asym-hobbit-body-parts 1) (nth asym-hobbit-body-parts 2)])&quot;, :offset 69, :ns &quot;projects.projectTwo&quot;} {:command &quot;(set [(matching-part01 (nth asym-hobbit-body-parts 1)) (nth asym-hobbit-body-parts 1)])&quot;, :offset 87, :ns &quot;projects.projectTwo&quot;} {:command &quot;(set 1 2)&quot;, :offset 9, :ns &quot;projects.projectTwo&quot;} {:command &quot;(set 1 )&quot;, :offset 8, :ns &quot;projects.projectTwo&quot;} {:command &quot;(set [1 2 3 4])&quot;, :offset 15, :ns &quot;projects.projectTwo&quot;} {:command &quot;(into [] (matching-part01 (nth asym-hobbit-body-parts 1)))&quot;, :offset 58, :ns &quot;projects.projectTwo&quot;} {:command &quot;(into {} (matching-part01 (nth asym-hobbit-body-parts 1)))&quot;, :offset 58, :ns &quot;projects.projectTwo&quot;} {:command &quot;(into {} (matching-part01 (nth asym-hobbit-body-parts 1))  (matching-part01 (nth asym-hobbit-body-parts 1)))&quot;, :offset 108, :ns &quot;projects.projectTwo&quot;} {:command &quot;(into [] (vector [(matching-part01 (nth asym-hobbit-body-parts 1)) (nth asym-hobbit-body-parts 1)]))&quot;, :offset 100, :ns &quot;projects.projectTwo&quot;} {:command &quot;(into [] (hash-map [(matching-part01 (nth asym-hobbit-body-parts 1)) (nth asym-hobbit-body-parts 1)]))&quot;, :offset 102, :ns &quot;projects.projectTwo&quot;} {:command &quot;(into [] (set [(matching-part01 (nth asym-hobbit-body-parts 1)) (nth asym-hobbit-body-parts 1)]))&quot;, :offset 97, :ns &quot;projects.projectTwo&quot;} {:command &quot;(boom 10)&quot;, :offset 9, :ns &quot;projects.controlFlow&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -330,13 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/notepad.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/dataTypes.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -346,22 +379,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/controlFlow.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notepad.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/functions.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
+        <state relative-caret-position="968">
           <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/projectTwo.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="100" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
+        <state relative-caret-position="408">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/regularExpressions.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="58" lean-forward="true" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
         </state>
       </provider>
     </entry>
