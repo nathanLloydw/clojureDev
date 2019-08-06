@@ -39,4 +39,3 @@
          :else
          (word? (rest words) nouns (conj other (first words)))
          )))
-

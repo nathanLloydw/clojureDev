@@ -4,6 +4,8 @@
 (use '[imports.trace :refer :all])
 (use '[projects.dataTypes :refer :all])
 
+;;-------------------------------------------- Symmetry & hobits -------------------------------------------------------
+
 ;;this example looks like it deconstructs it whilst running the body/return
 (defn matching-part00
   [part]
@@ -41,6 +43,36 @@
 (defn symmetrize-hobit
   [hobit]
   (into (into [] (remove nil? (map matching-part01 hobit))) hobit))
-;; (symmetrize-hobit asym-hobbit-body-parts)
 
+;; (symmetrize-hobit asym-hobbit-body-parts)
 ;; (into [] (set [(matching-part01 (nth asym-hobbit-body-parts 1)) (nth asym-hobbit-body-parts 1)]))
+
+;; the reduce function can apply a function to every arguement in a list or vector
+;; for example: (reduce + 10 [1 2 3 4])
+;; using this function i can write i much better symetrizer:
+
+;;(symmetrize-hobit-final asym-hobbit-body-parts)
+(defn symmetrize-hobit-final
+  "Expects a seq of maps that have a :name and :size"
+  [hobit]
+  (reduce
+    (fn [body part] (remove nil? (into body (set [part (matching-part01 part)]))))
+    [] hobit))
+;; in this example the reuduce function applies the annoymous function to each item in the vector
+
+;;-------------------------------------------- hit the hobit -----------------------------------------------------------
+
+;; in this following function i use many functions i have learnt previously which follow:
+;; let, loop, if, map and recur. the only function which is new is rand. which is self explanatory.
+
+;;(hit (symmetrize-hobit-final asym-hobbit-body-parts))
+(defn hit
+  [asym-body-parts]
+  (let [sym-parts (symmetrize-hobit-final asym-body-parts)
+        body-part-size-sum (reduce + (map :size sym-parts))
+        target (rand body-part-size-sum)]
+    (loop [[part & remaining] sym-parts
+            accumulated-size (:size part)]
+       (if (> accumulated-size target)
+         (str "you hit the hobit in the " (:name part) " for " (rand-int (:size part)) " points")
+         (recur remaining (+ accumulated-size (:size (first remaining))))))))

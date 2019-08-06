@@ -53,11 +53,11 @@
           :else "CONFUUSSSEEEDDDD!")))
 ;;i have used the cond function for multiple conditions rather than the if for one condition.
 
-;;------------------------------------------------- random function -----------------------------------------------------
+;;------------------------------------------------- random function ----------------------------------------------------
 ;;you can also use the function identity to return the argument with out altering it.
-;;-----------------------------------------------------------------------------------------------------------------------
+;;----------------------------------------------------------------------------------------------------------------------
 
-;; ------------------------------------------------ Deconstructing -------------------------------------------------------
+;; ------------------------------------------------ Deconstructing -----------------------------------------------------
 
 ;;this is deconstructing in use, as you can see you can split where the value would be into sub values by putting it in brackets.
 ;;e.g. (deconstructingTest ["a" "b" "c"] ["d" "e" "f"] ["g" "h" "i"])
@@ -97,7 +97,7 @@
 ;;In general, you can think of destructuring as instructing Clojure on how to associate
 ;; names with values in a list, map, set, or vector.
 
-;;-------------------------------------------- Let & In body deconstruction ---------------------------------------------
+;;-------------------------------------------- Let & In body deconstruction --------------------------------------------
 
 ;;basic example of let being used to mess with the data we was given.
 ;; this can be done without let but this makes it more simple
@@ -131,7 +131,7 @@
 
 ;;let is simply deconstructing outside of the params container.
 
-;;-------------------------------------------- Anonymous Functions & returns --------------------------------------------
+;;-------------------------------------------- Anonymous Functions & returns -------------------------------------------
 
 ;; anonymous function syntax,
 ;; cant be called to be used with in other functions all calls:
@@ -143,6 +143,7 @@
 ;;another more compact version of the anonymous function:
 (def cube-me #(* % % %))
 
+
 ;;you can map the function to do many at the same time:
 ;;(map cube-me [1 2 3 4 5])
 ;;if your anonymous function takes multiple arguements use: %1 %2 %3 %&
@@ -151,4 +152,17 @@
 ;;thats because its not a function, its a variable. once called the function is returned.
 ;;you do not send the function a value the function is returned to it.
 
+;;---------------------------------------------- Reduce function -------------------------------------------------------
 
+;;the reduce function is a way to iterate through a list or vector from start to end
+;; and apply the same function to those values, it is a good function to use for recursion
+
+(defn sum-of [vec]
+  (reduce + 0 vec))
+
+(defn highest-num [vec]
+  (reduce
+    (fn [a b]
+      (if (> a b) a b))
+          0       ;; this is the starting value which the larger number gets passed to until the vector is empty.
+          vec))   ;; we move through the list comparing the value passed and the vector[pos] until we have the largest

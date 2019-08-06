@@ -14,6 +14,8 @@
 (re-find #"ss" "Loch Ness")
 (re-find #"sss" "Loch Ness")
 (re-find #"s+" "Loch Nesssssss")    ;; here in the regex the '+' finds the letters x times over
+(re-find #"Time: ..:..:.." "At the chime it is Time: 09:58:10.")
+(re-find #"Time: (..):(..):(..)" "At the chime it is Time: 09:58:10.")
 
 ;;re-find will only return the first pattern they find, if you are looking through a huge string,
 ;;you should use the re-seq function as it will find the pattern as many times as it exists:
