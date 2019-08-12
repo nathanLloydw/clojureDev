@@ -57,4 +57,13 @@
    {:name "left-achilles" :size 1}
    {:name "left-foot" :size 2}])
 
-;;(clojure.string/replace (str (:name(nth asym-hobbit-body-parts 1))) #"^left-" "right-" )
+;;the following are two sequences/vectors
+(def human-consumption   [8.1 7.3 6.6 5.0])
+(def critter-consumption [0.0 0.2 0.3 1.1])
+
+;;using the following function i can create map this data:
+(defn unify-diet-data
+  [human critter]
+  {:human human
+   :critter critter})
+;;(map unify-diet-data human-consumption critter-consumption)
