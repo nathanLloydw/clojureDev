@@ -140,9 +140,17 @@
 ;;example of anonymous function in use:
 (def square-me (fn [x] (* x x)))
 
-;;another more compact version of the anonymous function:
+;;a couple more compact versions of the anonymous function:
 (def cube-me #(* % % %))
 
+(def sum #(reduce + %))
+
+(def avg #(/ (sum %) (count %)))
+
+;;this following function takes advatage of the previous annoymous functions:
+(defn stats
+  [numbers]
+  (map #(% numbers) [sum count avg]))
 
 ;;you can map the function to do many at the same time:
 ;;(map cube-me [1 2 3 4 5])
@@ -152,17 +160,3 @@
 ;;thats because its not a function, its a variable. once called the function is returned.
 ;;you do not send the function a value the function is returned to it.
 
-;;---------------------------------------------- Reduce function -------------------------------------------------------
-
-;;the reduce function is a way to iterate through a list or vector from start to end
-;; and apply the same function to those values, it is a good function to use for recursion
-
-(defn sum-of [vec]
-  (reduce + 0 vec))
-
-(defn highest-num [vec]
-  (reduce
-    (fn [a b]
-      (if (> a b) a b))
-          0       ;; this is the starting value which the larger number gets passed to until the vector is empty.
-          vec))   ;; we move through the list comparing the value passed and the vector[pos] until we have the largest
