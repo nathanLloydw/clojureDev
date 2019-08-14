@@ -39,3 +39,6 @@
          :else
          (word? (rest words) nouns (conj other (first words)))
          )))
+
+(defn math [func]
+  (func 1 2))

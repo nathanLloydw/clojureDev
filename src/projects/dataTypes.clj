@@ -83,3 +83,16 @@
   {:human human
    :critter critter})
 ;;(map unify-diet-data human-consumption critter-consumption)
+
+(def vampire-database
+  {0 {:makes-blood-puns? false, :has-pulse? true  :name "McFishwich"}
+   1 {:makes-blood-puns? false, :has-pulse? true  :name "McMackson"}
+   2 {:makes-blood-puns? true,  :has-pulse? false :name "Damon Salvatore"}
+   3 {:makes-blood-puns? true,  :has-pulse? true  :name "Mickey Mouse"}
+   4 {:makes-blood-puns? true,  :has-pulse? true  :name "Nathan Williams"}
+   5 {:makes-blood-puns? false,  :has-pulse? true  :name "Count dooku"}
+   6 {:makes-blood-puns? true,  :has-pulse? false  :name "Count drakula"}
+   7 {:makes-blood-puns? true,  :has-pulse? true  :name "tony blair"}
+   8 {:makes-blood-puns? true,  :has-pulse? true  :name "Sarah Mill"}
+   9 {:makes-blood-puns? false,  :has-pulse? true  :name "Bob"}
+   10{:makes-blood-puns? false,  :has-pulse? true  :name "Santa"} })
