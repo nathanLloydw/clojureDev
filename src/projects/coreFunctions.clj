@@ -62,7 +62,7 @@
 ;; a good example of take and drop while in use with a anonymous function:
 ;; (take-while #(< (:month %) 3) food-journal) and (drop-while #(< (:month %) 3) food-journal)
 
-;;----------------------------------------------------- FACT -----------------------------------------------------------
+;;-------------------------------------------------- RANDOM FACT -------------------------------------------------------
 ;; the take/drop-while function keep taking/dropping items till a condition is met, it does not check the whole seq.  ;;
 ;;----------------------------------------------------------------------------------------------------------------------
 
@@ -140,10 +140,12 @@
 ;; So far i've only worked with lazy sequences generated from vectors or lists however, Clojure comes with a few
 ;; functions to create infinite sequences. One easy way to create an infinite sequence is with repeat,
 ;; which creates a sequence where every entry is the argument you pass:
+
 ;; (concat (take 8 (repeat "na")) ["batman"])
 
 ;; you can also use repeatedly, its similar expect you pass a function into instead which will be called x times to
 ;; create the sequence, for example:
+
 ;; (take 8 (repeatedly #(rand-int 10)))
 
 ;; here in both examples the code with produce infinite sequences, we simply decide how many to use with first or take.
@@ -154,7 +156,41 @@
   ([] (even-numbers 0))
   ([n] (cons n (lazy-seq (even-numbers (+ n 2))))))
 
-;; if you call this function with out anything to measure/limit its output it will basically crash:
-;; (take 10 (even-numbers)) and (take 10 (even-numbers 6))
+;; if you call this function with out anything to limit its output it will basically crash:
+;; (take 10 (even-numbers)) and (take 10 (even-numbers 6)) - this limits the function to recur only 10 times.
 
+;;---------------------------------------------------- into and conj ---------------------------------------------------
+
+;;One of the most important collection functions is into.
+;; As you now know, many seq functions return a seq rather than the original data structure.
+;; You’ll probably want to convert the return value back into the original value, and into lets you do that:
+
+;; (map identity {:sunlight-reaction "Glitter!"}) and (into {} (map identity {:sunlight-reaction "Glitter!"}))
+
+;; Here, the map function returns a sequential data structure after being given a map data structure,
+;; and into converts the seq back into a map. This will work with other data structures as well:
+
+;; (map identity [:garlic :sesame-oil :fried-eggs]) and (into [] (map identity [:garlic :sesame-oil :fried-eggs]))
+
+;; if you convert any sequence into a set the duplicate entries will be removed, sets do not contain duplicate entries.
+;; Because sets only contain unique values, the set ends up with just one value in it:
+
+;; (map identity [:garlic-clove :garlic-clove]) and (into #{} (map identity [:garlic-clove :garlic-clove]))
+
+;; you can also add two sequences together of the same type, which is the most obvious use for example:
+
+;; (into {:favorite-animal "kitty"} {:least-favorite-smell "dog" :relationship-with-teenager "creepy"})
+
+;; conj also adds elements to a collection, it does it differently as shows:
+
+;; (conj [0] [1]) , (conj [0] 1) , (conj [0] 1 2 3) and (conj [] 1 2 3)
+
+;; as you can see using conj does not put the data into a new sequence but can also put sequences into another sequence.
+;; if you think about it, its in the name. you can undo that by using the function flatten if you are wondering.
+
+;; with conj you can pass as many elements as you want but with into you have to pass a collection
+
+;;------------------------------------------------- Function Functions -------------------------------------------------
+
+;; To take advantage of Clojure’s ability to accept functions as arguments and return functions as values.
 

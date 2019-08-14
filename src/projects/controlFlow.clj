@@ -3,7 +3,7 @@
 (use '[imports.matcher :refer :all])
 (use '[imports.trace :refer :all])
 
-;;---------------------------------------------------- Conditional ---------------------------------------------------------
+;;---------------------------------------------------- Conditional -----------------------------------------------------
 (defn ifOne [a b]
   (if (> a b)
     "true/return values"
@@ -32,9 +32,10 @@
     (println "still true")
     "true/return value"))
 
-;;clojure operations follow this syntax: opening parenthesis, operator, operands, closing parenthesis. A function call is just an operation,
-;;the first item in an operation has to be a function though.
-;;this means you can use functions as the operator. e.g. ( (or + -) 1 2 3 4) && ( (or false -) 1 2 3 4) && ((first [+ 0]) 1 2 3)
+;;clojure operations follow this syntax: opening parenthesis, operator, operands, closing parenthesis.
+;; A function call is just an operation, the first item in an operation has to be a function though.
+;;this means you can use functions as the operator.
+;; e.g. ( (or + -) 1 2 3 4) && ( (or false -) 1 2 3 4) && ((first [+ 0]) 1 2 3)
 
 (defn errorMessage
   [severity]
@@ -57,7 +58,7 @@
     (and (= p1 "rock") (= p2 "scissors")) "Player 1 won!"
     (and (= p1 "scissors") (= p2 "rock")) "Player 2 won!"))
 
-;;------------------------------------------------------ Recursion --------------------------------------------------------
+;;------------------------------------------------------ Recursion -----------------------------------------------------
 
 ;;you can recur in a function by simply calling it again and pass different paramaters, for example:
 
