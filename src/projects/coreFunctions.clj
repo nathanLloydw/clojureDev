@@ -192,5 +192,13 @@
 
 ;;------------------------------------------------- Function Functions -------------------------------------------------
 
-;; To take advantage of Clojure’s ability to accept functions as arguments and return functions as values.
+;; To take advantage of Clojure’s ability to accept functions as arguments and return functions as values,
+;; Two of Clojure’s functions, apply and partial, are especially weird because they both accept and return functions.
+
+;; to see the use of the apply function, we start with a function which returns the max: (max 0 1 2)
+;; this function though does not work on a sequence, it just returns it: (max [0 1 2 5 2])
+;; this is because the function max returns the largest item passed to it, the vector is the only item.
+
+;; to get around this we use the apply function, i do not quite understand how but it applies the given function to the
+;; data with in the vector: (apply max [0 1 2])
 

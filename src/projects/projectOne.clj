@@ -94,3 +94,4 @@
 ;; (take 10 (iterate inc 0) )
 ;; (range 5 100 5)
 ;; (take 10 (cycle [ 1 2 3]))
+;; max
