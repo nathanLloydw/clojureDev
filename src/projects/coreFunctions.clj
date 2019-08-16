@@ -199,6 +199,24 @@
 ;; this function though does not work on a sequence, it just returns it: (max [0 1 2 5 2])
 ;; this is because the function max returns the largest item passed to it, the vector is the only item.
 
-;; to get around this we use the apply function, i do not quite understand how but it applies the given function to the
+;; to get around this we use the apply function, this function explodes the given seq so it can be passed to a function.
 ;; data with in the vector: (apply max [0 1 2])
 
+;; partial takes a function and any number of arguments, then returns a new function.
+;; it calls the original function with the original arguments you supplied it along with the new arguments.
+;; here is an example:
+
+(def add10 (partial + 10))
+
+(def times10 (partial * 10))
+
+(def add-missing-elements (partial conj ["water" "earth" "air"]))
+
+;;  it will apply the given function to all the arguments before the internal variable. In general, you want to use
+;; partials when you find you’re repeating the same combination of function and arguments in many different contexts.
+
+
+;;---------------------------------------------------- Complement ------------------------------------------------------
+
+;; the complement function simply turns true to false and vise versa. sounds quite simple but it can be really useful,
+;; the vampire identifier function which was written earlier can be turned to a human identifier, for example:
