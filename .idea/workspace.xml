@@ -202,6 +202,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565949596593" />
     <property name="cursive.last.file.extension.C\:/Users/Nathan/Desktop/Projects/clojureDev/src" value="clj" />
     <property name="cursive.last.file.extension.C\:/Users/n.williams/Documents/GitHub/clojureDev/src" value="clj" />
@@ -223,48 +225,50 @@
   <component name="RunManager" selected="Clojure REPL.RePl">
     <configuration name="REPL" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <module name="clojureDev" />
-      <setting name="replType" value="1" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="$PROJECT_DIR$" />
       <setting name="profiles" value="" />
-      <method v="2" />
+      <setting name="aliases" value="" />
     </configuration>
     <configuration name="RePl" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <module name="clojureDev" />
-      <setting name="replType" value="0" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="INTELLIJ" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="$PROJECT_DIR$" />
       <setting name="profiles" value="" />
-      <method v="2" />
+      <setting name="aliases" value="" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
-      <setting name="replType" value="1" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
       <module name="" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="" />
       <setting name="profiles" value="" />
-      <method v="2" />
+      <setting name="aliases" value="" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
       <setting name="host" value="" />
       <setting name="port" value="0" />
       <setting name="replType" value="0" />
       <module name="" />
-      <method v="2" />
     </configuration>
     <configuration name="main" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="clojureDev" />
       <setting name="path" value="$PROJECT_DIR$/src/main.clj" />
       <setting name="namespace" value="" />
-      <setting name="useLein" value="false" />
+      <setting name="execution" value="INTELLIJ" />
       <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src" />
-      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Clojure REPL.RePl" />
