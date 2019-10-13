@@ -35,3 +35,5 @@
                  (canDo? (second (lmg start)) goal lmg (conj been (second (lmg start))))
                  (canDo? (nth (lmg start) 2) goal lmg (conj been (nth (lmg start) 2))))))))
 
+(defn getValue []
+  (do (println"whats your name") (flush) (read-line)))

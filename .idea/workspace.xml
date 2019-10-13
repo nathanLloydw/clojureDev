@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf41d459-884f-45f9-be37-13d0a307c19d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/projects/coreFunctions.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/coreFunctions.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Nathan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projectThree.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/projectThree.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/recap.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/recap.clj" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,54 +20,13 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-436079415">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.14" value="2" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="clj" value="26242" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Clojure" value="26242" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="clj" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Clojure" value="12" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/notepad.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projects/projectTwo.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1173">
-              <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+              <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -81,17 +43,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projects/projectOne.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
+            <state relative-caret-position="1632">
               <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projects/coreFunctions.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="761">
-              <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+            <state relative-caret-position="3332">
+              <caret line="196" selection-start-line="196" selection-end-line="196" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/projects/projectThree.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/projects/recap.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -99,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projects/dataTypes.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="781">
-              <caret line="97" column="68" lean-forward="true" selection-start-line="97" selection-start-column="68" selection-end-line="97" selection-end-column="68" />
+            <state relative-caret-position="1649">
+              <caret line="97" column="68" selection-start-line="97" selection-start-column="68" selection-end-line="97" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -118,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/projects/controlFlow.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1938">
-              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
             </state>
           </provider>
         </entry>
@@ -144,7 +124,6 @@
         <option value="$PROJECT_DIR$/src/main.clj" />
         <option value="$PROJECT_DIR$/src/projects/prj1.clj" />
         <option value="$PROJECT_DIR$/src/projects/recursion.clj" />
-        <option value="$PROJECT_DIR$/src/projects/projectThree.clj" />
         <option value="$PROJECT_DIR$/src/projects/regularExpressions.clj" />
         <option value="$PROJECT_DIR$/src/projects/projectTwo.clj" />
         <option value="$PROJECT_DIR$/src/projects/functions.clj" />
@@ -153,6 +132,9 @@
         <option value="$PROJECT_DIR$/src/projects/controlFlow.clj" />
         <option value="$PROJECT_DIR$/src/projects/projectOne.clj" />
         <option value="$PROJECT_DIR$/src/projects/coreFunctions.clj" />
+        <option value="$PROJECT_DIR$/src/projects/projectThree.clj" />
+        <option value="$PROJECT_DIR$/src/projects/matcherTutorial.clj" />
+        <option value="$PROJECT_DIR$/src/projects/recap.clj" />
       </list>
     </option>
   </component>
@@ -163,18 +145,19 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="x" value="209" />
+    <option name="y" value="-9" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,12 +174,19 @@
               <item name="clojureDev" type="b2602c69:ProjectViewProjectNode" />
               <item name="clojureDev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojureDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojureDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -206,10 +196,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565949596593" />
     <property name="cursive.last.file.extension.C\:/Users/Nathan/Desktop/Projects/clojureDev/src" value="clj" />
+    <property name="cursive.last.file.extension.C\:/Users/Nathan/Desktop/University/Year 4/AI/clojureDev/src" value="clj" />
     <property name="cursive.last.file.extension.C\:/Users/n.williams/Documents/GitHub/clojureDev/src" value="clj" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="ReplState" timestamp="1565949596590">{:repl-history {:ide [], :local [{:command &quot;(drop-while #(&lt; (:month %) 3) food-journal)&quot;, :offset 43, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(drop-while neg? [-1 -2 3 4 5 -1])&quot;, :offset 34, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(take-while neg? [-1 -2 3 4 5 -1])&quot;, :offset 34, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(take-while #(&lt; (:month %) 4) (drop-while #(&lt; (:month %) 2) food-journal))&quot;, :offset 74, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(take-while #(&lt; (:month %) 4) (drop-while #(&lt; (:month %) 3) food-journal))&quot;, :offset 74, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(math +)&quot;, :offset 8, :ns &quot;notepad&quot;} {:command &quot;(math -)&quot;, :offset 8, :ns &quot;notepad&quot;} {:command &quot;(math /)&quot;, :offset 8, :ns &quot;notepad&quot;} {:command &quot;(math (+ 1))&quot;, :offset 12, :ns &quot;notepad&quot;} {:command &quot;(take-while #(&lt; (:month %) 4)\n            (drop-while #(&lt; (:month %) 2) food-journal))&quot;, :offset 86, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(filter #(&lt; (:human %) 5) food-journal)&quot;, :offset 39, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(filter #(&lt; (:month %) 5) food-journal)&quot;, :offset 39, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(filter #(&gt; (:month %) 5) food-journal)&quot;, :offset 39, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(filter #(&gt; (:month %) 2) food-journal)&quot;, :offset 39, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(some #(&gt; (:critter %) 5) food-journal)&quot;, :offset 39, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(some #(&gt; (:critter %) 3) food-journal)&quot;, :offset 39, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(some #(&gt; (:critter %) 2) food-journal)&quot;, :offset 39, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(some #(and (&gt; (:critter %) 3) %) food-journal)&quot;, :offset 47, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(some #(and (&gt; (:critter %) 5) %) food-journal)&quot;, :offset 47, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort [3 2 1 \&quot;s\&quot;])&quot;, :offset 18, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by count [3 2 1 \&quot;s\&quot;])&quot;, :offset 27, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by count [\&quot;s\&quot; \&quot;sss\&quot; \&quot;ss\&quot;])&quot;, :offset 32, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort [\&quot;s\&quot; \&quot;sss\&quot; \&quot;ss\&quot; 1 2 3])&quot;, :offset 29, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort [\&quot;s\&quot; \&quot;sss\&quot; \&quot;ss\&quot;])&quot;, :offset 23, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort [3 2 1])&quot;, :offset 14, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by last [3 2 1])&quot;, :offset 22, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by last {:b 1 :c 3 :a 2})&quot;, :offset 31, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort{:b 1 :c 3 :a 2})&quot;, :offset 22, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by first {:b 1 :c 3 :a 2})&quot;, :offset 32, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by &gt; [ 5 4 2 6 7 8 5])&quot;, :offset 28, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by &lt; [ 5 4 2 6 7 8 5])&quot;, :offset 28, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by val &lt; [ 5 4 2 6 7 8 5])&quot;, :offset 32, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by count &lt; [ 5 4 2 6 7 8 5])&quot;, :offset 34, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort &lt; [ 5 4 2 6 7 8 5])&quot;, :offset 25, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort &gt; [ 5 4 2 6 7 8 5])&quot;, :offset 25, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by count [\&quot;aaa\&quot; \&quot;bb\&quot; \&quot;c\&quot;])&quot;, :offset 32, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by count &gt; [\&quot;aaa\&quot; \&quot;bb\&quot; \&quot;c\&quot;])&quot;, :offset 34, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(concat [1 2] 3 4)&quot;, :offset 18, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(concat 1 2 [3 4])&quot;, :offset 18, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(concat [1 2] [3 4])&quot;, :offset 20, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(get vampire-database 0)&quot;, :offset 24, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(get vampire-database 10)&quot;, :offset 25, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(vampire-related-details 11)&quot;, :offset 28, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(vampire? (vampire-related-details 11))&quot;, :offset 39, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(vampire? (vampire-related-details 12))&quot;, :offset 39, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(map vampire? [11 12 13])&quot;, :offset 25, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(map vampire? [11 12 13 14 ])&quot;, :offset 29, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(map vampire? [11 12 13 14])&quot;, :offset 28, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(map vampire? (map vampire-related-details [11 12 13]) )&quot;, :offset 56, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(identify-vampire [11 12 13])&quot;, :offset 29, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(filter vampire? (map vampire-related-details [11 12 13 14]))&quot;, :offset 61, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(identify-vampire [11 12 13 14])&quot;, :offset 32, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(identify-vampire [1 2 3 4])&quot;, :offset 28, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(range)&quot;, :offset 7, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(range 0 4)&quot;, :offset 11, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(+ 1 2)&quot;, :offset 7, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(range 5)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(range 4)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(identify-vampire (range 5))&quot;, :offset 28, :ns &quot;projects.coreFunctions&quot;} {:command &quot;vampire-database&quot;, :offset 16, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(count vampire-database)&quot;, :offset 24, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(range (count vampire-database))&quot;, :offset 32, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (vampire-related-details 0))&quot;, :offset 34, :ns &quot;projects.coreFunctions&quot;} {:command &quot;ls &quot;, :offset 3, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time  (map vampire-related-details (range 0 1000000)))&quot;, :offset 55, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(identify-vampire (range (count vampire-database)))&quot;, :offset 51, :ns &quot;projects.coreFunctions&quot;} {:command &quot;mapped-details&quot;, :offset 14, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(first mapped-details)&quot;, :offset 22, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (def mapped-details (map vampire-related-details (range 0 1000000))))&quot;, :offset 75, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (first mapped-details))&quot;, :offset 29, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(nth (first mapped-details) 3)&quot;, :offset 30, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(get (first mapped-details) 3)&quot;, :offset 30, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(get (first mapped-details) 0)&quot;, :offset 30, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (nth mapped-details 3))&quot;, :offset 29, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (nth mapped-details 4))&quot;, :offset 29, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (nth mapped-details 10))&quot;, :offset 30, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (nth mapped-details 11))&quot;, :offset 30, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (identify-vampire (range (count vampire-database))))&quot;, :offset 58, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (identify-vampire (range 10)))&quot;, :offset 36, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (identify-vampire (range 0 10)))&quot;, :offset 38, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (identify-vampire (range 0 1000000)))&quot;, :offset 43, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(repeat \&quot;x\&quot;)&quot;, :offset 12, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(take 5 (repeat \&quot;x\&quot;))&quot;, :offset 21, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(take 50 (repeat \&quot;x\&quot;))&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(+ 1 2 3)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(concat (take 8 (repeat \&quot;na\&quot;)) \&quot;batman\&quot;)&quot;, :offset 40, :ns &quot;user&quot;} {:command &quot;(concat (take 8 (repeat \&quot;na\&quot;)) [\&quot;batman\&quot;])&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(concat (take 5 (repeat \&quot;na\&quot;)))&quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(concat (take 5 (repeat (rand-int 11))))&quot;, :offset 40, :ns &quot;user&quot;} {:command &quot;(concat (take 5 (repeatedly (rand-int 11))))&quot;, :offset 44, :ns &quot;user&quot;} {:command &quot;(concat (take 5 (repeatedly #(rand-int 11))))&quot;, :offset 45, :ns &quot;user&quot;} {:command &quot;(take 5 (repeat (rand-int 11)))&quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(take 5 (repeat 5(rand-int 11)))&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot; (repeat 5(rand-int 11))&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot; (repeatedly 5 #(rand-int 11))&quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(take 3 (repeatedly #(rand-int 10)))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(take 5 (repeatedly #(rand-int 10)))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(take 8 (repeatedly #(rand-int 10)))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(even-numbers)&quot;, :offset 14, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(even-numbers 2)&quot;, :offset 16, :ns &quot;projects.coreFunctions&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1570648028878">{:repl-history {:ide [], :local [{:command &quot;(sort-by first {:b 1 :c 3 :a 2})&quot;, :offset 32, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by &gt; [ 5 4 2 6 7 8 5])&quot;, :offset 28, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by &lt; [ 5 4 2 6 7 8 5])&quot;, :offset 28, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by val &lt; [ 5 4 2 6 7 8 5])&quot;, :offset 32, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by count &lt; [ 5 4 2 6 7 8 5])&quot;, :offset 34, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort &lt; [ 5 4 2 6 7 8 5])&quot;, :offset 25, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort &gt; [ 5 4 2 6 7 8 5])&quot;, :offset 25, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by count [\&quot;aaa\&quot; \&quot;bb\&quot; \&quot;c\&quot;])&quot;, :offset 32, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(sort-by count &gt; [\&quot;aaa\&quot; \&quot;bb\&quot; \&quot;c\&quot;])&quot;, :offset 34, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(concat [1 2] 3 4)&quot;, :offset 18, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(concat 1 2 [3 4])&quot;, :offset 18, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(concat [1 2] [3 4])&quot;, :offset 20, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(get vampire-database 0)&quot;, :offset 24, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(get vampire-database 10)&quot;, :offset 25, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(vampire-related-details 11)&quot;, :offset 28, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(vampire? (vampire-related-details 11))&quot;, :offset 39, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(vampire? (vampire-related-details 12))&quot;, :offset 39, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(map vampire? [11 12 13])&quot;, :offset 25, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(map vampire? [11 12 13 14 ])&quot;, :offset 29, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(map vampire? [11 12 13 14])&quot;, :offset 28, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(map vampire? (map vampire-related-details [11 12 13]) )&quot;, :offset 56, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(identify-vampire [11 12 13])&quot;, :offset 29, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(filter vampire? (map vampire-related-details [11 12 13 14]))&quot;, :offset 61, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(identify-vampire [11 12 13 14])&quot;, :offset 32, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(identify-vampire [1 2 3 4])&quot;, :offset 28, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(range)&quot;, :offset 7, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(range 0 4)&quot;, :offset 11, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(+ 1 2)&quot;, :offset 7, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(range 5)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(range 4)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(identify-vampire (range 5))&quot;, :offset 28, :ns &quot;projects.coreFunctions&quot;} {:command &quot;vampire-database&quot;, :offset 16, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(count vampire-database)&quot;, :offset 24, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(range (count vampire-database))&quot;, :offset 32, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (vampire-related-details 0))&quot;, :offset 34, :ns &quot;projects.coreFunctions&quot;} {:command &quot;ls &quot;, :offset 3, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time  (map vampire-related-details (range 0 1000000)))&quot;, :offset 55, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(identify-vampire (range (count vampire-database)))&quot;, :offset 51, :ns &quot;projects.coreFunctions&quot;} {:command &quot;mapped-details&quot;, :offset 14, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(first mapped-details)&quot;, :offset 22, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (def mapped-details (map vampire-related-details (range 0 1000000))))&quot;, :offset 75, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (first mapped-details))&quot;, :offset 29, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(nth (first mapped-details) 3)&quot;, :offset 30, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(get (first mapped-details) 3)&quot;, :offset 30, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(get (first mapped-details) 0)&quot;, :offset 30, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (nth mapped-details 3))&quot;, :offset 29, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (nth mapped-details 4))&quot;, :offset 29, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (nth mapped-details 10))&quot;, :offset 30, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (nth mapped-details 11))&quot;, :offset 30, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (identify-vampire (range (count vampire-database))))&quot;, :offset 58, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (identify-vampire (range 10)))&quot;, :offset 36, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (identify-vampire (range 0 10)))&quot;, :offset 38, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(time (identify-vampire (range 0 1000000)))&quot;, :offset 43, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(repeat \&quot;x\&quot;)&quot;, :offset 12, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(take 5 (repeat \&quot;x\&quot;))&quot;, :offset 21, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(take 50 (repeat \&quot;x\&quot;))&quot;, :offset 22, :ns &quot;user&quot;} {:command &quot;(+ 1 2 3)&quot;, :offset 9, :ns &quot;user&quot;} {:command &quot;(concat (take 8 (repeat \&quot;na\&quot;)) \&quot;batman\&quot;)&quot;, :offset 40, :ns &quot;user&quot;} {:command &quot;(concat (take 8 (repeat \&quot;na\&quot;)) [\&quot;batman\&quot;])&quot;, :offset 42, :ns &quot;user&quot;} {:command &quot;(concat (take 5 (repeat \&quot;na\&quot;)))&quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(concat (take 5 (repeat (rand-int 11))))&quot;, :offset 40, :ns &quot;user&quot;} {:command &quot;(concat (take 5 (repeatedly (rand-int 11))))&quot;, :offset 44, :ns &quot;user&quot;} {:command &quot;(concat (take 5 (repeatedly #(rand-int 11))))&quot;, :offset 45, :ns &quot;user&quot;} {:command &quot;(take 5 (repeat (rand-int 11)))&quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(take 5 (repeat 5(rand-int 11)))&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot; (repeat 5(rand-int 11))&quot;, :offset 24, :ns &quot;user&quot;} {:command &quot; (repeatedly 5 #(rand-int 11))&quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(take 3 (repeatedly #(rand-int 10)))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(take 5 (repeatedly #(rand-int 10)))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(take 8 (repeatedly #(rand-int 10)))&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(even-numbers)&quot;, :offset 14, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(even-numbers 2)&quot;, :offset 16, :ns &quot;projects.coreFunctions&quot;} {:command &quot;(? \&quot;\&quot;)&quot;, :offset 6, :ns &quot;projects.projectThree&quot;} {:command &quot;(? \&quot;fef\&quot;)&quot;, :offset 9, :ns &quot;projects.projectThree&quot;} {:command &quot;(get-to rooms 'front-garden 'back-garden)&quot;, :offset 41, :ns &quot;projects.projectThree&quot;} {:command &quot;(mlet ['(?a ?b ?c) '(cat dog bat)])&quot;, :offset 35, :ns &quot;projects.projectThree&quot;} {:command &quot;(mlet ['(?a ?b ?c) '(cat dog bat)] (mout '(a ?a a ?b)))&quot;, :offset 55, :ns &quot;projects.projectThree&quot;} {:command &quot;(mlet ['(?a ?b ?c) '(cat dog bat)] (mout '(a ?a a ?b and a ?c)))&quot;, :offset 64, :ns &quot;projects.projectThree&quot;} {:command &quot;(mlet ['(?a ?b ?c) '(cat dog bat mouse)] (mout '(a ?a a ?b and a ?c)))&quot;, :offset 70, :ns &quot;projects.projectThree&quot;} {:command &quot;(mlet ['(?a x ?c) '(cat dog x bat mouse)] (mout '(a ?a a ?b and a ?c)))&quot;, :offset 71, :ns &quot;projects.projectThree&quot;} {:command &quot;(mlet ['(?a x ?c) '(cat dog x bat mouse)] (mout '(a ?a and a ?c)))&quot;, :offset 66, :ns &quot;projects.projectThree&quot;} {:command &quot;(mlet ['(??a x ??c) '(cat dog x bat mouse)] (mout '(a ?a and a ?c)))&quot;, :offset 68, :ns &quot;projects.projectThree&quot;} {:command &quot;(mlet ['(??a x ??c) '(cat dog x bat mouse)] (mout '(a ?a and a ??c)))&quot;, :offset 69, :ns &quot;projects.projectThree&quot;} {:command &quot;(mlet ['(??a x ??c) '(cat dog x bat mouse)] (mout '(a ??a and a ??c)))&quot;, :offset 70, :ns &quot;projects.projectThree&quot;} {:command &quot;(mcond [exp]\n\n       ((?x plus ?y)  (+ (? x) (? y)))\n\n       ((?x minus ?y) (- (? x) (? y)))\n\n       )\n\n&quot;, :offset 104, :ns &quot;projects.projectThree&quot;} {:command &quot;(mfind ['[isa ?f veg] food] (? f))&quot;, :offset 34, :ns &quot;projects.matcherTutorial&quot;} {:command &quot;(mfind ['[isa ?f veg] food] (?f))&quot;, :offset 33, :ns &quot;projects.matcherTutorial&quot;} {:command &quot;(mfind* ['([isa ?f veg] [color ?f red]) food] (? f))&quot;, :offset 52, :ns &quot;projects.matcherTutorial&quot;} {:command &quot;\n(mfor ['[isa ?f veg] food] (? f))&quot;, :offset 34, :ns &quot;projects.matcherTutorial&quot;} {:command &quot;(mfor* ['([isa ?f veg] [color ?f red]) food] (? f))&quot;, :offset 51, :ns &quot;projects.matcherTutorial&quot;} {:command &quot;(defmatch apply-rule [facts]\n\n          ((rule ?n ??antecedents =&gt; ??consequents)\n\n           :=&gt; (mfor* [(? antecedents) facts]\n\n                      (mout (? consequents))))\n\n          )&quot;, :offset 189, :ns &quot;projects.matcherTutorial&quot;} {:command &quot;(apply-rule\n\n  '(rule 15 (parent ?a ?b) (parent ?b ?c)\n\n         =&gt; (grandparent ?a ?c))\n\n  family)&quot;, :offset 99, :ns &quot;projects.matcherTutorial&quot;} {:command &quot;(apply-all rules1 facts1)\n\n→ ((heavy elephant) (heavy whale)\n\n   (light mouse) (light sparrow))&quot;, :offset 95, :ns &quot;projects.matcherTutorial&quot;} {:command &quot;(apply-all rules1 facts1)\n((heavy elephant) (heavy whale)\n\n   (light mouse) (light sparrow))&quot;, :offset 92, :ns &quot;projects.matcherTutorial&quot;} {:command &quot;(read-line)&quot;, :offset 11, :ns &quot;projects.recap&quot;} {:command &quot;(read-string \&quot;\&quot;)&quot;, :offset 16, :ns &quot;projects.recap&quot;} {:command &quot;(getValue)&quot;, :offset 10, :ns &quot;projects.recap&quot;} {:command &quot;(import '(java.util Scanner))&quot;, :offset 29, :ns &quot;projects.recap&quot;} {:command &quot;(def scan (Scanner. *in*))&quot;, :offset 26, :ns &quot;projects.recap&quot;} {:command &quot;(def s (.nextLine scan))&quot;, :offset 24, :ns &quot;projects.recap&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -232,6 +224,7 @@
       <setting name="workingDir" value="$PROJECT_DIR$" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="RePl" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <module name="clojureDev" />
@@ -242,6 +235,7 @@
       <setting name="workingDir" value="$PROJECT_DIR$" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
@@ -252,12 +246,14 @@
       <setting name="workingDir" value="" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
       <setting name="host" value="" />
       <setting name="port" value="0" />
       <setting name="replType" value="0" />
       <module name="" />
+      <method v="2" />
     </configuration>
     <configuration name="main" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="clojureDev" />
@@ -269,11 +265,12 @@
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src" />
+      <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Clojure Application.main" />
       <item itemvalue="Clojure REPL.RePl" />
       <item itemvalue="Clojure REPL.REPL" />
-      <item itemvalue="Clojure Application.main" />
     </list>
     <recent_temporary>
       <list>
@@ -295,10 +292,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12877584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -321,7 +317,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info active="true" anchor="right" id="REPL" order="6" sideWeight="0.97180045" side_tool="true" visible="true" weight="0.26918977" />
+      <window_info active="true" anchor="right" id="REPL" order="6" sideWeight="0.97180045" side_tool="true" visible="true" weight="0.2718601" />
       <window_info anchor="right" id="Leiningen" order="7" sideWeight="0.028199567" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
@@ -358,9 +354,6 @@
       <window_info anchor="right" id="Palette&#9;" order="10" />
     </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -373,32 +366,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/imports/matcher.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/recursion.clj" />
-    <entry file="file://$PROJECT_DIR$/src/projects/projectThree.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/projectTwo.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/notepad.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
-          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/imports/matcher.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="292" column="2" selection-start-line="292" selection-start-column="1" selection-end-line="292" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/matcherTutorial.clj" />
+    <entry file="file://$PROJECT_DIR$/src/projects/projectTwo.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/functions.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="133" column="56" selection-start-line="133" selection-start-column="47" selection-end-line="133" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/projectOne.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/coreFunctions.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3332">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/projectThree.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/dataTypes.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="68" selection-start-line="97" selection-start-column="68" selection-end-line="97" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -412,35 +434,14 @@
     <entry file="file://$PROJECT_DIR$/src/projects/controlFlow.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1938">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/dataTypes.clj">
+    <entry file="file://$PROJECT_DIR$/src/projects/recap.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="97" column="68" lean-forward="true" selection-start-line="97" selection-start-column="68" selection-end-line="97" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/functions.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2261">
-          <caret line="133" column="56" selection-start-line="133" selection-start-column="47" selection-end-line="133" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/projectOne.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/coreFunctions.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="761">
-          <caret line="219" lean-forward="true" selection-start-line="219" selection-end-line="219" />
+        <state relative-caret-position="255">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>

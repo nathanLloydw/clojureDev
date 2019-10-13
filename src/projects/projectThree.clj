@@ -36,9 +36,24 @@
      (connects dog-door bathroom hall)
      ))
 
+;; final version : (get-to rooms 'front-garden 'back-garden)
+(defn get-to
+  ([rooms from to] (get-to rooms from to #{} []))
+  ([rooms from to been-here route]
+   (cond (= from to)
+         route
+
+         (been-here from)
+         nil
+
+         :else
+         (mfor [['connects '?door from '?next] rooms]
+               (get-to rooms (? next) to (conj been-here from) (conj route from))))))
+
+
+
 
 ;;(getTo rooms 'front-garden 'back-garden)
-
 (defn getTo
   [rooms from to]
   (for [room rooms]
@@ -105,15 +120,3 @@
          :else
          (getToM5 rooms location destination (str route ) (str deadend)))))
 
-(defn get-to
-  ([rooms from to] (get-to rooms from to #{} []))
-  ([rooms from to been-here route]
-   (cond (= from to)
-         route
-
-         (been-here from)
-         nil
-
-         :else
-         (mfor [['connects '?door from '?next] rooms]
-               (get-to rooms (? next) to (conj been-here from) (conj route from))))))
