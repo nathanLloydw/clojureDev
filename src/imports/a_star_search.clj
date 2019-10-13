@@ -66,12 +66,3 @@
                                   ))
                               ))
                           ))))
-
-(defn a*lmg [state]
-  (let [n (:state state)
-        c (:cost state)]
-    (list
-      {:state (+ n 1), :cost (+ c 2)}
-      {:state (+ n 5), :cost (+ c 7)}
-      {:state (* n 2), :cost (+ c 1)}
-      )))
