@@ -17,17 +17,6 @@
     :liverpool ( {:location "warrington" :cost 2} {:location "manchester" :cost 7} {:location "chester" :cost 4})
     })
 
-
-
-(defn a*lmgA [state]
-  (let [n (:state state)
-        c (:cost state)]
-    (list
-      {:state (+ n 1), :cost (+ c 2)}
-      {:state (+ n 5), :cost (+ c 7)}
-      {:state (* n 2), :cost (+ c 1)}
-      )))
-
 (defn a*lmgB [state]
   (let [location (:state state)
         cost (:cost state)]
