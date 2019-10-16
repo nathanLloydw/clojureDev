@@ -19,7 +19,7 @@
     (odd? (first a)) (odd (rest a) (conj odds (first a)) even)
     :else (odd (rest a) odds (conj even (first a))))))
 
-(defn lmg [x] (list (+ x 15) (* x 6) (- x 12)))
+(defn lmg [x] (list (* x 3) (+ x 5) (- x 13)))
 
 (defn canDo?
   ([start goal lmg]

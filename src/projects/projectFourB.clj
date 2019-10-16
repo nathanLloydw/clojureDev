@@ -33,9 +33,9 @@
 (defn fixPrice [currentLoc previousLoc]
   (first (remove nil? (for [{loc :location cost :cost} (busRoutes (keyword previousLoc))] (if (= loc currentLoc) cost )))))
 
-(defn searchAttemptOne
+(defn best-firstSearch
   ([state goal lmg]
-   (searchAttemptOne state goal lmg []))
+   (best-firstSearch state goal lmg []))
   ([state goal lmg been]
    (cond
      (= (:state state) goal )
@@ -44,7 +44,9 @@
          false
      (empty? (removeBeenValues (lmg state) been))
          (do (println state " - FAIL")
-             (searchAttemptOne {:state (last been) :cost (- (state :cost) (fixPrice (:state state) (last been)))} goal lmg (conj been (:state state))))
+             (best-firstSearch {:state (last been) :cost (- (state :cost) (fixPrice (:state state) (last been)))} goal lmg (conj been (:state state))))
      :else
      (do (println state)
-         (searchAttemptOne (first (sort-by :cost (removeBeenValues (lmg state) been))) goal lmg (conj been (:state state)))))))
+         (best-firstSearch (first (sort-by :cost (removeBeenValues (lmg state) been))) goal lmg (conj been (:state state)))))))
+
+;;(best-firstSearch {:state "Newcastle" :cost 0} "chester" a*lmgB)
