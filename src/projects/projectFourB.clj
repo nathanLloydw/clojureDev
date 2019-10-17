@@ -56,13 +56,13 @@
    (best-firstSearchB state goal lmg []))
   ([state goal lmg been]
    (cond
-     (= (:state state) goal )
-     (do (conj been (:state state)) state)
-     (= (count been) allStations) false
+     (= (:state state) goal) (do (conj been (:state state)) state)
      (empty? (removeBeenValues (lmg state) been)) false
+     (= (count been) allStations) false
      :else
      (do (println state)
          (or
-           (for [x [(sort-by :cost (removeBeenValues (lmg state) been))]] (best-firstSearchB x goal lmg (conj been (:state state)))) )))))
+           (for [x (sort-by :cost (removeBeenValues (lmg state) been))] (best-firstSearchB x goal lmg (conj been (:state state))))
+           )))))
 
 ;;(best-firstSearchB {:state "Newcastle" :cost 0} "chester" a*lmgB)
