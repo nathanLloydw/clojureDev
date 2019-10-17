@@ -2,16 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e7bc923-b1ae-46da-be0a-aba397afa4de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/projects/projectFourA.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Clojure_1_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Clojure_1_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Clojure_1_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clojureDev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clojureDev.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/imports/a_star_search.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/imports/a_star_search.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/projectFourB.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/projectFourB.clj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="recap.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/projects/recap.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projectFourA.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/projects/projectFourA.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a_star_search.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/imports/a_star_search.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1002">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projectFourB.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/projects/projectFourB.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="614">
+              <caret line="49" column="87" lean-forward="true" selection-start-line="49" selection-start-column="87" selection-end-line="49" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,14 +66,87 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/core.clj" />
+        <option value="$PROJECT_DIR$/src/projects/projectFourA.clj" />
+        <option value="$PROJECT_DIR$/src/imports/a_star_search.clj" />
+        <option value="$PROJECT_DIR$/src/projects/recap.clj" />
+        <option value="$PROJECT_DIR$/src/projects/projectFourB.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
+  </component>
   <component name="ProjectId" id="1S9U8HBt7LF9FHIExiidU0Io6RS" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="clojureDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojureDev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojureDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojureDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojureDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojureDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="imports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clojureDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clojureDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="cursive.last.file.extension.C\:/Users/Nathan/Desktop/University/Year 4/AI/clojureDev/src" value="clj" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="cursive.last.file.extension.U\:/Computer Science/year 3/AI/clojureDev/src" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/core.specs.alpha-0.1.24.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="ReplState" timestamp="1570982641740">{:repl-history {:ide [], :local [{:command &quot;(+ 1 2)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(canDo? 22 123 lmg)&quot;, :offset 19, :ns &quot;projects.recap&quot;} {:command &quot;(a*lmg {:state 1 :cost 2})&quot;, :offset 26, :ns &quot;projects.projectFourA&quot;} {:command &quot;(doseq [i [0 1 2 3]] (println i))&quot;, :offset 33, :ns &quot;projects.projectFourA&quot;} {:command &quot;(busRoutes)&quot;, :offset 11, :ns &quot;projects.projectFourA&quot;} {:command &quot;(busRoutes 'newcastle)&quot;, :offset 22, :ns &quot;projects.projectFourA&quot;} {:command &quot;(:cost (first (busRoutes 'Newcastle)))&quot;, :offset 38, :ns &quot;projects.projectFourA&quot;} {:command &quot;((first (busRoutes 'Newcastle)) :cost)&quot;, :offset 38, :ns &quot;projects.projectFourA&quot;} {:command &quot; {(first (busRoutes 'Newcastle)) :cost}&quot;, :offset 39, :ns &quot;projects.projectFourA&quot;} {:command &quot;(first (busRoutes 'Newcastle))&quot;, :offset 30, :ns &quot;projects.projectFourA&quot;} {:command &quot;(nth (busRoutes 'Newcastle) 3)&quot;, :offset 30, :ns &quot;projects.projectFourA&quot;} {:command &quot;((first (busRoutes 'darlington)))&quot;, :offset 33} {:command &quot;(first (busRoutes 'darlington))&quot;, :offset 31, :ns &quot;projects.projectFourA&quot;} {:command &quot;(:cost (first (busRoutes 'darlington)))&quot;, :offset 39, :ns &quot;projects.projectFourA&quot;} {:command &quot;(first busRoutes)&quot;, :offset 17, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state 0, :cost 0} {:state 80} a*lmg)&quot;, :offset 48, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state 0, :cost 0} 12 a*lmg)&quot;, :offset 39, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state 0, :cost 0} 50 a*lmg)&quot;, :offset 39, :ns &quot;projects.projectFourA&quot;} {:command &quot;(doseq [x [1 2 3]] (+ 1 x))&quot;, :offset 27, :ns &quot;user&quot;} {:command &quot;(doseq [x [1 2 3]] (println x))&quot;, :offset 31, :ns &quot;user&quot;} {:command &quot;(doseq [x [1 2 3]] (hash-map x))&quot;, :offset 32, :ns &quot;user&quot;} {:command &quot;(doseq [x ['{ Newcastle ({:location middlesbrough :cost 5} {:location darlington :cost 4} {:location durham :cost 4})\n             middlesbrough ({:location redcar :cost 2} {:location hartlepool :cost 2} {:location northallerton :cost 3} {:location newcastle :cost 5})\n             darlington ({:location newcaslte :cost 6} {:location middlesbrough :cost 3} {:location durham :cost 4} {:location northallerton :cost 2} {:location leeds :cost 7})\n             durham ({:location darlington :cost 3} {:location newcastle :cost 6})\n             northallerton ({:location durham :cost 4} {:location darlington :cost 5})\n             leeds ({:location manchester :cost 8} {:location york :cost 6} {:location wakefield :cost 3})\n             manchester ({:location liverpool :cost } {:location warrington :cost } {:location bolton :cost })\n             liverpool ( {:location warrington :cost } {:location manchester :cost } {:location chester :cost })\n             }]] (println x))&quot;, :offset 976, :ns &quot;projects.projectFourA&quot;} {:command &quot;(doseq [x [busRoutes]] (println x))&quot;, :offset 35, :ns &quot;projects.projectFourA&quot;} {:command &quot;(doseq [x [(busRoutes 'Newcastle)]] (println x))&quot;, :offset 48, :ns &quot;projects.projectFourA&quot;} {:command &quot;(doseq [x [(busRoutes :Newcastle)]] (println x))&quot;, :offset 48, :ns &quot;projects.projectFourA&quot;} {:command &quot;(doseq [x [(busRoutes :Newcastle)]] (hash-map x))&quot;, :offset 49, :ns &quot;projects.projectFourA&quot;} {:command &quot;(a*lmgB {:location Newcastle :cost 0})&quot;, :offset 38, :ns &quot;projects.projectFourA&quot;} {:command &quot;(busRoutes 'Newcastle)&quot;, :offset 22, :ns &quot;projects.projectFourA&quot;} {:command &quot;(busRoutes 'middlesbrough)&quot;, :offset 26, :ns &quot;projects.projectFourA&quot;} {:command &quot;(busRoutes :middlesbrough)&quot;, :offset 26, :ns &quot;projects.projectFourA&quot;} {:command &quot;(a*lmgB {:location 'Newcastle :cost 0})&quot;, :offset 39, :ns &quot;projects.projectFourA&quot;} {:command &quot;(a*lmgB {:location \&quot;Newcastle\&quot;  :cost 0})&quot;, :offset 41, :ns &quot;projects.projectFourA&quot;} {:command &quot;(a*lmgB {:location \&quot;middlesbrough\&quot;  :cost 0})&quot;, :offset 45, :ns &quot;projects.projectFourA&quot;} {:command &quot;(a*lmgB {:location \&quot;Newcastle\&quot;  :cost 2})&quot;, :offset 41, :ns &quot;projects.projectFourA&quot;} {:command &quot;(doseq [[k v] busRoutes :Newcastle] (prn k v))&quot;, :offset 46, :ns &quot;projects.projectFourA&quot;} {:command &quot;(busRoutes (keyword location))&quot;, :offset 30, :ns &quot;projects.projectFourA&quot;} {:command &quot;(busRoutes (keyword \&quot;middlesbrough\&quot;))&quot;, :offset 37, :ns &quot;projects.projectFourA&quot;} {:command &quot;(hash-map :cost 5 :location \&quot;tmp\&quot;)&quot;, :offset 34, :ns &quot;projects.projectFourA&quot;} {:command &quot;(hash-map  :location \&quot;tmp\&quot; :cost 5)&quot;, :offset 35, :ns &quot;projects.projectFourA&quot;} {:command &quot;(hash-map  :location \&quot;tmp\&quot;, :cost 5)&quot;, :offset 36, :ns &quot;projects.projectFourA&quot;} {:command &quot;(a*lmgA {:state 1 :cost 2})&quot;, :offset 27, :ns &quot;projects.projectFourA&quot;} {:command &quot;(a*lmgB {:location \&quot;middlesbrough\&quot;  :cost 2})&quot;, :offset 45, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:location \&quot;Newcastle\&quot;, :cost 0} (fn [x] (= x 20)) a*lmgB)&quot;, :offset 68, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:location \&quot;Newcastle\&quot;, :cost 0} \&quot;liverpool\&quot; a*lmgB)&quot;, :offset 62, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:location \&quot;Newcastle\&quot;, :cost 0} (fn [x] (= x \&quot;liverpool\&quot;)) a*lmgB)&quot;, :offset 77, :ns &quot;projects.projectFourA&quot;} {:command &quot;(a*lmgB {:location \&quot;middlesbrough\&quot; :cost 2})&quot;, :offset 44, :ns &quot;projects.projectFourA&quot;} {:command &quot;(breadth-search- )&quot;, :offset 0} {:command &quot; (A*search {:state \&quot;Newcastle\&quot;, :cost 0} \&quot;liverpool\&quot; a*lmgB debug)&quot;, :offset 66, :ns &quot;projects.projectFourA&quot;} {:command &quot; (A*search {:state \&quot;Newcastle\&quot;, :cost 0} \&quot;liverpool\&quot; a*lmgB :debug)&quot;, :offset 67, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state \&quot;Newcastle\&quot;, :cost 0} \&quot;liverpool\&quot; a*lmgB)&quot;, :offset 59, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state \&quot;Newcastle\&quot;, :cost 0 :debug true} (fn [x] (= x \&quot;liverpool\&quot;)) a*lmgB)&quot;, :offset 86, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state \&quot;Newcastle\&quot;, :cost 0} (fn [x] (= x \&quot;liverpool\&quot;)) a*lmgB)&quot;, :offset 74, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state 0, :cost 0} (fn [x] (&gt; x 20)) a*lmgA)&quot;, :offset 55, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state 0, :cost 0 :debug true} (fn [x] (&gt; x 20)) a*lmgA)&quot;, :offset 67, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state 0, :cost 0} {:cost 20} a*lmgA)&quot;, :offset 48, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state 0, :cost 0} 20 a*lmgA)&quot;, :offset 40, :ns &quot;projects.projectFourA&quot;}], :remote []}}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="U:\Computer Science\year 3\AI\clojureDev\src\projects" />
+    </key>
+  </component>
+  <component name="ReplState" timestamp="1571302106250">{:repl-history {:ide [], :local [{:command &quot; (A*search {:state \&quot;Newcastle\&quot;, :cost 0} \&quot;liverpool\&quot; a*lmgB debug)&quot;, :offset 66, :ns &quot;projects.projectFourA&quot;} {:command &quot; (A*search {:state \&quot;Newcastle\&quot;, :cost 0} \&quot;liverpool\&quot; a*lmgB :debug)&quot;, :offset 67, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state \&quot;Newcastle\&quot;, :cost 0} \&quot;liverpool\&quot; a*lmgB)&quot;, :offset 59, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state \&quot;Newcastle\&quot;, :cost 0 :debug true} (fn [x] (= x \&quot;liverpool\&quot;)) a*lmgB)&quot;, :offset 86, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state \&quot;Newcastle\&quot;, :cost 0} (fn [x] (= x \&quot;liverpool\&quot;)) a*lmgB)&quot;, :offset 74, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state 0, :cost 0} (fn [x] (&gt; x 20)) a*lmgA)&quot;, :offset 55, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state 0, :cost 0 :debug true} (fn [x] (&gt; x 20)) a*lmgA)&quot;, :offset 67, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state 0, :cost 0} {:cost 20} a*lmgA)&quot;, :offset 48, :ns &quot;projects.projectFourA&quot;} {:command &quot;(A*search {:state 0, :cost 0} 20 a*lmgA)&quot;, :offset 40, :ns &quot;projects.projectFourA&quot;} {:command &quot;(+ 1 2)&quot;, :offset 7, :ns &quot;user&quot;} {:command &quot;(a*lmgB {:state \&quot;newcastle\&quot; :cost 0})&quot;, :offset 37, :ns &quot;projects.projectFourB&quot;} {:command &quot;(filter #(:cost %) (not max) (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}))&quot;, :offset 67, :ns &quot;projects.projectFourB&quot;} {:command &quot;(filter #(:cost %) (not max %) (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}))&quot;, :offset 69, :ns &quot;projects.projectFourB&quot;} {:command &quot;(filter #(:cost %) (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}))&quot;, :offset 57, :ns &quot;projects.projectFourB&quot;} {:command &quot;(filter #( &lt;  (:cost %) 7) (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}))&quot;, :offset 65, :ns &quot;projects.projectFourB&quot;} {:command &quot;(sort-by :cost (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}))&quot;, :offset 53, :ns &quot;projects.projectFourB&quot;} {:command &quot;(searchAttempOne {:state \&quot;Newcastle\&quot; :cost 0} \&quot;chester\&quot; a*lmgB)&quot;, :offset 63, :ns &quot;projects.projectFourB&quot;} {:command &quot;(first (sort-by :cost (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0})))&quot;, :offset 61, :ns &quot;projects.projectFourB&quot;} {:command &quot;(:location (first (sort-by :cost (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}))))&quot;, :offset 73, :ns &quot;projects.projectFourB&quot;} {:command &quot;(:state (first (sort-by :cost (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}))))&quot;, :offset 70, :ns &quot;projects.projectFourB&quot;} {:command &quot;(searchAttemptOne {:state \&quot;Newcastle\&quot; :cost 0} \&quot;Newcastle\&quot; a*lmgB)&quot;, :offset 66, :ns &quot;projects.projectFourB&quot;} {:command &quot;(a*lmgB {:state \&quot;Newcastle\&quot; :cost 0})&quot;, :offset 37, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapsValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}))&quot;, :offset 56, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapsValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}) \&quot;\&quot;)&quot;, :offset 59, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}) \&quot;\&quot;)&quot;, :offset 58, :ns &quot;projects.projectFourB&quot;} {:command &quot;skip&quot;, :offset 4, :ns &quot;projects.projectFourB&quot;} {:command &quot;rest&quot;, :offset 4, :ns &quot;projects.projectFourB&quot;} {:command &quot;(rest)&quot;, :offset 6, :ns &quot;projects.projectFourB&quot;} {:command &quot;(remove nil? (removeMapValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}) \&quot;durham\&quot;))&quot;, :offset 78, :ns &quot;projects.projectFourB&quot;} {:command &quot;(remove nil? (removeMapValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0})  [\&quot;durham\&quot;]))&quot;, :offset 81, :ns &quot;projects.projectFourB&quot;} {:command &quot;(remove nil? (removeMapValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0})  [\&quot;durham\&quot;,\&quot;darlington\&quot;]))&quot;, :offset 94, :ns &quot;projects.projectFourB&quot;} {:command &quot;(contains? [\&quot;durham\&quot;,\&quot;darlington\&quot;] \&quot;durham\&quot;)&quot;, :offset 44, :ns &quot;projects.projectFourB&quot;} {:command &quot;(some #(= \&quot;durham\&quot; %) [\&quot;durham\&quot;,\&quot;darlington\&quot;])&quot;, :offset 46, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}) \&quot;durhamd\&quot;)&quot;, :offset 65, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}) (\&quot;durham\&quot;))&quot;, :offset 66, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}) \&quot;durham\&quot;)&quot;, :offset 64, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}) [\&quot;durham\&quot;])&quot;, :offset 66, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}) [\&quot;durham\&quot;,\&quot;darlington\&quot;])&quot;, :offset 79, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}))&quot;, :offset 55, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}) [])&quot;, :offset 58, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 0}) [\&quot;Newcastle\&quot;])&quot;, :offset 69, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapValues (a*lmgB {:state \&quot;durham\&quot; :cost 6}) [\&quot;Newcastle\&quot; \&quot;durham\&quot;])&quot;, :offset 75, :ns &quot;projects.projectFourB&quot;} {:command &quot;(searchAttemptOne {:state \&quot;Newcastle\&quot; :cost 0} \&quot;chester\&quot; a*lmgB)&quot;, :offset 64, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapValues (a*lmgB {:state \&quot;darlington\&quot; :cost 15}) [\&quot;Newcastle\&quot; \&quot;durham\&quot; \&quot;darlington\&quot;])&quot;, :offset 93, :ns &quot;projects.projectFourB&quot;} {:command &quot;(searchAttemptOne {:state \&quot;Newcastle\&quot; :cost 0} \&quot;durham\&quot; a*lmgB)&quot;, :offset 63, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeMapValues (a*lmgB {:state \&quot;northallerton\&quot; :cost 15}) [\&quot;Newcastle\&quot; \&quot;durham\&quot; \&quot;darlington\&quot;])&quot;, :offset 96, :ns &quot;projects.projectFourB&quot;} {:command &quot;(nil? (removeMapValues (a*lmgB {:state \&quot;northallerton\&quot; :cost 15}) [\&quot;Newcastle\&quot; \&quot;durham\&quot; \&quot;darlington\&quot;]))&quot;, :offset 103, :ns &quot;projects.projectFourB&quot;} {:command &quot;(empty? (removeMapValues (a*lmgB {:state \&quot;northallerton\&quot; :cost 15}) [\&quot;Newcastle\&quot; \&quot;durham\&quot; \&quot;darlington\&quot;]))&quot;, :offset 105, :ns &quot;projects.projectFourB&quot;} {:command &quot;(searchAttemptOne {:state \&quot;Newcastle\&quot; :cost 0} \&quot;middlesbrough\&quot; a*lmgB)&quot;, :offset 70, :ns &quot;projects.projectFourB&quot;} {:command &quot;(a*lmgB {:state \&quot;Newcastle\&quot; :cost 5})&quot;, :offset 37, :ns &quot;projects.projectFourB&quot;} {:command &quot;(removeBeenValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 5}) [\&quot;darlington\&quot;])&quot;, :offset 71, :ns &quot;projects.projectFourB&quot;} {:command &quot;(sort-by :cost (removeBeenValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 5}) [\&quot;darlington\&quot;]))&quot;, :offset 87, :ns &quot;projects.projectFourB&quot;} {:command &quot;(first (sort-by :cost (removeBeenValues (a*lmgB {:state \&quot;Newcastle\&quot; :cost 5}) [\&quot;darlington\&quot;])))&quot;, :offset 95, :ns &quot;projects.projectFourB&quot;} {:command &quot;(first (sort-by :cost (removeBeenValues (a*lmgB {:state \&quot;durham\&quot;, :cost 11}) [\&quot;darlington\&quot; \&quot;durham\&quot;])))&quot;, :offset 103, :ns &quot;projects.projectFourB&quot;} {:command &quot;(first (sort-by :cost (removeBeenValues (a*lmgB {:state \&quot;Newcastle\&quot;, :cost 17}) [\&quot;darlington\&quot; \&quot;durham\&quot; \&quot;Newcastle\&quot;])))&quot;, :offset 118, :ns &quot;projects.projectFourB&quot;} {:command &quot;(count [\&quot;darlington\&quot; \&quot;durham\&quot; \&quot;Newcastle\&quot;])&quot;, :offset 43, :ns &quot;projects.projectFourB&quot;} {:command &quot;(:location busRoutes)&quot;, :offset 21, :ns &quot;projects.projectFourB&quot;} {:command &quot;(first [\&quot;darlington\&quot; \&quot;durham\&quot; \&quot;Newcastle\&quot;])&quot;, :offset 43, :ns &quot;projects.projectFourB&quot;} {:command &quot;(first (first busRoutes))&quot;, :offset 25, :ns &quot;projects.projectFourB&quot;} {:command &quot;(:location (nth (first busRoutes) 1))&quot;, :offset 37, :ns &quot;projects.projectFourB&quot;} {:command &quot;(for [{loc :location cos :cost} (nth (first busRoutes) 1)] (println loc))&quot;, :offset 73, :ns &quot;projects.projectFourB&quot;} {:command &quot;(for [{loc :location cos :cost} (nth (first busRoutes) 1)] loc)&quot;, :offset 63, :ns &quot;projects.projectFourB&quot;} {:command &quot;allStations&quot;, :offset 11, :ns &quot;projects.projectFourB&quot;} {:command &quot;busRoutes&quot;, :offset 9, :ns &quot;projects.projectFourB&quot;} {:command &quot;(frequencies busRoutes)&quot;, :offset 23, :ns &quot;projects.projectFourB&quot;} {:command &quot;(flatten busRoutes)&quot;, :offset 19, :ns &quot;projects.projectFourB&quot;} {:command &quot;(first busRoutes)&quot;, :offset 17, :ns &quot;projects.projectFourB&quot;} {:command &quot;(count busRoutes)&quot;, :offset 17, :ns &quot;projects.projectFourB&quot;} {:command &quot;(nth (first busRoutes) 7)&quot;, :offset 25, :ns &quot;projects.projectFourB&quot;} {:command &quot;(nth (first busRoutes) 6)&quot;, :offset 25, :ns &quot;projects.projectFourB&quot;} {:command &quot;(nth (first busRoutes) 1)&quot;, :offset 25, :ns &quot;projects.projectFourB&quot;} {:command &quot;(nth (nth busRoutes 7) 1)&quot;, :offset 25, :ns &quot;projects.projectFourB&quot;} {:command &quot;(nth (nth (busRoutes) 7) 1)&quot;, :offset 27, :ns &quot;projects.projectFourB&quot;} {:command &quot;(nth (nth busRoutes 1) 1)&quot;, :offset 25, :ns &quot;projects.projectFourB&quot;} {:command &quot;(nth (first busRoutes ) 1)&quot;, :offset 26, :ns &quot;projects.projectFourB&quot;} {:command &quot;(nth (second busRoutes) 1)&quot;, :offset 26, :ns &quot;projects.projectFourB&quot;} {:command &quot;(for [x busRoutes] (println x))&quot;, :offset 31, :ns &quot;projects.projectFourB&quot;} {:command &quot;(for [x busRoutes] x)&quot;, :offset 21, :ns &quot;projects.projectFourB&quot;} {:command &quot;(for [x busRoutes] (first x))&quot;, :offset 29, :ns &quot;projects.projectFourB&quot;} {:command &quot;(for [x busRoutes] (for [{loc :location cos :cost} (nth (first busRoutes) 1)] loc))&quot;, :offset 83, :ns &quot;projects.projectFourB&quot;} {:command &quot;(for [(second x) busRoutes] x)&quot;, :offset 30, :ns &quot;projects.projectFourB&quot;} {:command &quot;(for [x busRoutes] (second x))&quot;, :offset 30, :ns &quot;projects.projectFourB&quot;} {:command &quot;(for [x busRoutes] (for [{loc :location cos :cost} (second x) ] loc))&quot;, :offset 69, :ns &quot;projects.projectFourB&quot;} {:command &quot;(flatten (for [x busRoutes] (for [{loc :location cos :cost} (second x) ] loc)))&quot;, :offset 79, :ns &quot;projects.projectFourB&quot;} {:command &quot;(set (flatten (for [x busRoutes] (for [{loc :location cos :cost} (second x) ] loc))))&quot;, :offset 85, :ns &quot;projects.projectFourB&quot;} {:command &quot;(count (set (flatten (for [x busRoutes] (for [{loc :location cos :cost} (second x) ] loc)))))&quot;, :offset 93, :ns &quot;projects.projectFourB&quot;} {:command &quot;(allStations)&quot;, :offset 13, :ns &quot;projects.projectFourB&quot;} {:command &quot;(last (flatten (for [x busRoutes] (for [{loc :location cos :cost} (second x) ] loc))))&quot;, :offset 86, :ns &quot;projects.projectFourB&quot;} {:command &quot;(searchAttemptOne {:state \&quot;Newcastle\&quot; :cost 0} \&quot;darlington\&quot; a*lmgB)&quot;, :offset 67, :ns &quot;projects.projectFourB&quot;} {:command &quot;(get (busRoutes :northallerton) :location)&quot;, :offset 42, :ns &quot;projects.projectFourB&quot;} {:command &quot;(trace-vars searchAttemptOne)&quot;, :offset 29, :ns &quot;projects.projectFourB&quot;} {:command &quot;()&quot;, :offset 1} {:command &quot;(busRoutes :northallerton)&quot;, :offset 26, :ns &quot;projects.projectFourB&quot;} {:command &quot;(busRoutes (keyword \&quot;northallerton\&quot;))&quot;, :offset 37, :ns &quot;projects.projectFourB&quot;} {:command &quot;(+ 1 (fixPrice \&quot;Newcastle\&quot; \&quot;middlesbrough\&quot;))&quot;, :offset 44, :ns &quot;projects.projectFourB&quot;} {:command &quot;(first (fixPrice \&quot;Newcastle\&quot; \&quot;middlesbrough\&quot;))&quot;, :offset 46, :ns &quot;projects.projectFourB&quot;} {:command &quot;(num (fixPrice \&quot;Newcastle\&quot; \&quot;middlesbrough\&quot;))&quot;, :offset 44, :ns &quot;projects.projectFourB&quot;} {:command &quot;(fixPrice \&quot;Newcastle\&quot; \&quot;middlesbrough\&quot;)&quot;, :offset 38, :ns &quot;projects.projectFourB&quot;} {:command &quot;(A*search {:state \&quot;Newcastle\&quot; :cost 0} \&quot;chester\&quot; a*lmgB)&quot;, :offset 56, :ns &quot;projects.projectFourB&quot;} {:command &quot;(searchAttemptOne {:state \&quot;Newcastle\&quot; :cost 0} \&quot;liverpool\&quot; a*lmgB)&quot;, :offset 66, :ns &quot;projects.projectFourB&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -53,7 +169,6 @@
       <setting name="workingDir" value="$PROJECT_DIR$" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
@@ -64,14 +179,12 @@
       <setting name="workingDir" value="" />
       <setting name="profiles" value="" />
       <setting name="aliases" value="" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
       <setting name="host" value="" />
       <setting name="port" value="0" />
       <setting name="replType" value="0" />
       <module name="" />
-      <method v="2" />
     </configuration>
     <configuration name="recap" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="clojureDev" />
@@ -83,17 +196,19 @@
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="$PROJECT_DIR$/src/projects" />
-      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Clojure Application.recap" />
       <item itemvalue="Clojure REPL.RePl" />
+      <item itemvalue="Clojure Application.recap" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Clojure Application.recap" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -102,18 +217,271 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570975143386</updated>
+      <workItem from="1571131922392" duration="229000" />
+      <workItem from="1571132264603" duration="633000" />
+      <workItem from="1571222449836" duration="249000" />
+      <workItem from="1571222807946" duration="289000" />
+      <workItem from="1571226260224" duration="10838000" />
+      <workItem from="1571300275852" duration="1801000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14039000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.25824693" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="right" id="REPL" order="3" side_tool="true" visible="true" weight="0.33697918" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Leiningen" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104166664" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/projects/recap.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="91" lean-forward="true" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/projectFourA.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/imports/a_star_search.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/projectFourB.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/recap.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/projectFourA.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/recap.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/projectFourA.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/recap.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/projectFourA.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/Nathan.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core.clj" />
+    <entry file="file://$PROJECT_DIR$/src/projects/projectFourA.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/imports/a_star_search.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1002">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/recap.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/projectFourB.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="49" column="87" lean-forward="true" selection-start-line="49" selection-start-column="87" selection-end-line="49" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>clojureDev</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>clojure-1.9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
