@@ -62,7 +62,7 @@
      :else
      (do (println state)
          (or
-           (for [x (sort-by :cost (removeBeenValues (lmg state) been))] (best-firstSearchB x goal lmg (conj been (:state state))))
+           (flatten (for [x (sort-by :cost (removeBeenValues (lmg state) been))] (best-firstSearchB x goal lmg (conj been (:state state)))))
            )))))
 
 ;;(best-firstSearchB {:state "Newcastle" :cost 0} "chester" a*lmgB)
